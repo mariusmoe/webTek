@@ -1,0 +1,66 @@
+a:hover{background-color:#F0F0F5;} a{padding:0px 10px} a{font-weight:bold;font-family: Arial, serif}
+
+
+body{
+	
+}
+
+#main{
+	width:900px;
+	border: solid;
+	border-top:none;
+	margin-right: auto;
+	margin-left: auto;
+	height:auto;
+}
+
+#editable{
+	padding:10px;
+	margin-left:200px;
+	
+}
+
+#embedded{padding:10px ; float: right;} /*Vil sentrere facebook-embedded vindu under #topmenu*/
+#embedded, iframe{float:right;}/*Har her prøvd å sentrere vinduet (iframe), men heller ikke funka*/
+
+#topmenu{
+	margin-right: auto;margin-left: auto;width:auto;
+	border:solid; border-width:thin; border-top:none;
+	max-width: 540px; min-width: auto;
+	text-align:center;
+	
+}
+
+#leftmenu{
+	float:left;
+	width: 200px;
+	height: 583px;
+	padding: 1px 1px;
+	margin-bottom:1px;
+	background-color: #F0F0F5;
+	border:solid; border-width: thin; border-color: #F0F0F5;
+}
+
+#mainheader{
+	font-size: 30px;
+	font-weight:bold;
+	border-bottom: solid;
+	border-width:thin;
+	margin-top: 50px;
+	
+}
+#subheadings{
+	font-size: 20px;
+	font-style: italic;
+	font-weight: bold;
+}
+
+#footer{
+	float: right;
+	margin-right: 15%;
+	margin-left: 20%;
+}
+.footer, .push{
+	heigth: 155px;
+	/*Vi ønsker her å ha en footer som alltid holder seg på bunn, fint hvis noen fikser dette!*/
+}
