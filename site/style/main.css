@@ -123,18 +123,18 @@ nav {
 
 }
 
-#placeholder{
-	
-}
+
 
 footer {
    /* clear:both;
     text-align:center;
     padding:5px; */
-    width: 50%;
+    width: 900px;
     position: fixed;
     bottom: 0px;
     text-align:center;
+    color: white;
+    background-color: black;
 }
 
 
