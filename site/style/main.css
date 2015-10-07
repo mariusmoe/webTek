@@ -60,6 +60,17 @@ body{
 }
 
 */
+#topmenu{
+	
+	margin-right: auto;margin-left: auto;width:auto;
+	border:solid; border-width:thin; border-top:none;
+	max-width: auto; min-width: auto;
+	text-align:center;
+	
+	border-left: none;
+	border-right: none;
+	
+}
 
 #mainheader{
 	font-size: 30px;
@@ -70,22 +81,50 @@ body{
 	
 }
 
+#box {
+	
+	
+	
+	width:895px;
+	border: solid;
+	border-top:none;
+	margin-right: 0px;
+	margin-left: 0px;
+	min-height: 100px;
+	overflow: hidden;
+
+	/*border: thick;
+	border-top:none;
+	width: 970px;
+    background-color: #FFF;
+    margin: 0 auto;
+    overflow: hidden;*/
+}
+
 body {
-	width: 800px;
+	width: 900px;
 	margin-left: auto;
 	margin-right: auto;
+
+	margin-bottom: 30px;
 
 }
 
 #editable{
-	width: 600px;
+	width: 700px;
 	float: right;
+	margin-top: 30px;
 	/*margin-left: 200px;*/
 }
 
 nav {
 	float: left;
 	width: 20%;
+
+}
+
+#placeholder{
+	
 }
 
 footer {
@@ -96,5 +135,12 @@ footer {
     position: fixed;
     bottom: 0px;
     text-align:center;
+}
+
+
+#subheadings{
+	font-size: 20px;
+	font-style: italic;
+	font-weight: bold;
 }
 
