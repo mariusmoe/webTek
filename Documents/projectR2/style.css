@@ -2,6 +2,7 @@ body{
 	width:900px;
 	margin-left:20%;
 	margin-right:20%;
+	background-color: #EFECCA
 }
 
 table, th, td {
@@ -20,3 +21,14 @@ table{
 	border-spacing: 3px;
 	margin-bottom:25px;
 }
+
+#centerIamage {
+	margin: auto;
+    width: 50%;
+}
+
+h1, h2 , h3 {
+	color: #002F2F;
+	/*color: #A7C6DA*/
+}
+

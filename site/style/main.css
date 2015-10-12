@@ -72,14 +72,7 @@ body{
 	
 }
 
-#mainheader{
-	font-size: 30px;
-	font-weight:bold;
-	border-bottom: solid;
-	border-width:thin;
-	margin-top: 50px;
-	
-}
+
 
 #box {
 	
@@ -87,7 +80,7 @@ body{
 	
 	width:895px;
 	border: solid;
-	border-top:none;
+	/*border-top:none;*/
 	margin-right: 0px;
 	margin-left: 0px;
 	min-height: 100px;
@@ -143,4 +136,25 @@ footer {
 	font-style: italic;
 	font-weight: bold;
 }
+
+
+#menu {
+	float: right;
+	width: 400px;
+	display: inline;
+	margin-top: 50px;
+}
+
+#mainheader{
+	font-size: 30px;
+	font-weight:bold;
+	/*border-bottom: solid;
+	margin-right: 500;
+	border-width:thin;*/
+	margin-top: 50px;
+	width: 300px;
+	float: left;
+	
+}
+
 
