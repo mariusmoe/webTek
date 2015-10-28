@@ -4,7 +4,7 @@
 
 //-------emulerer hva en database typisk hadde tatt seg av-------
 var basket = []
-, allBooks = ['book1', 'book2', 'book3', 'book4']
+, allBooks = ['book1', 'book2', 'book3', 'book4', 'book5', 'book6', 'book7', 'book8' ]
 , books = []
 , bug = true
 , first = true;
