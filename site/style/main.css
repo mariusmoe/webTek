@@ -119,7 +119,6 @@ nav {
 }
 
 
-
 footer {
    /* clear:both;
     text-align:center;
@@ -162,6 +161,10 @@ footer {
 	float:none;	
 }
 
+#slider{
+	margin-top: 0px;
+	padding-top: 0px;
+}
 
 /*  meny dropdown*/
 #Logo{
