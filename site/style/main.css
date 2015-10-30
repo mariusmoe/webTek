@@ -79,12 +79,13 @@ body{
 	
 	
 	width:895px;
-	border: solid;
+	border: solid 1px grey;
 	/*border-top:none;*/
 	margin-right: 0px;
 	margin-left: 0px;
 	min-height: 100px;
 	overflow: hidden;
+	background-color: white;
 
 	/*border: thick;
 	border-top:none;
@@ -98,8 +99,9 @@ body {
 	width: 900px;
 	margin-left: auto;
 	margin-right: auto;
-
 	margin-bottom: 30px;
+	background: url("../images/bg.jpg");
+	background-repeat: repeat;
 
 }
 
