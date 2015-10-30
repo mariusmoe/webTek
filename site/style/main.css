@@ -124,8 +124,8 @@ footer {
    /* clear:both;
     text-align:center;
     padding:5px; */
-    width: 900px;
-    position: fixed;
+    width: 897px;
+    position: relative;
     bottom: 0px;
     text-align:center;
     color: white;

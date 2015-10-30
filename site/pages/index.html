@@ -3,6 +3,8 @@
 	<head>
 		<meta charset="UTF-8">
 		<link rel="stylesheet" type="text/css" href="../style/main.css">
+		<link rel="stylesheet" type="text/css" href="../style/slideshow.css">
+		<script src="../script/slideshow.js"></script>
 		<title>Om Noahs papir</title>
 	</head>
 <body>
@@ -33,13 +35,7 @@
 			            
 			        </ul>
 			    </nav>
-			
 		
-
-
-			
-	
-			
 			<div id="box">
 			<!-- 
 			    <nav>
@@ -49,9 +45,14 @@
 					</div>
 				</nav>
 				 -->
-				 <nav id="banner">
-				 	<p>Banner</p>				 
-				 </nav>
+
+				 <div id="slider"> 
+					<img src="../images/slide1.jpg" id="image">
+					<br>
+					<div class="left_hold"><img onClick="photo(-1)" class="left" src="../images/arrow_left.png"></div>
+					<div class="right_hold"><img onClick="photo(1)" class="right" src="../images/arrow_right.png"></div>
+					
+				</div>
 				
 <!-- ----------------------------------------------------------------- -->
 				<div id="editable">
