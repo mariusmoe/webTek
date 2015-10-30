@@ -3,6 +3,9 @@ addEventListener("load", interval);
 var imageCounter = 1;
 var total = 3;
 
+/**
+*
+*/
 function photoSlideshow(){
 	var image = document.getElementById("image");
 	imageCounter++;
