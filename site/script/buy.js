@@ -59,6 +59,13 @@ else{
 
 
 var temp ="";
+var strBooks = "Handlekurv: <br>"
+, strAlert = "";
+for (var u = 0; u < basket.length; u++){
+	
+	strBooks += allBooksNames[basket[u]] + "<br>";
+	strAlert += allBooksNames[basket[u]] + ", ";
+}
 /*
  * adds the selected book to a array containing all the selected books and create a cookie 
  * containing the same information.
@@ -87,10 +94,11 @@ function addToBasket(book){
 	
 	books[book].innerHTML = "Kjøp en til";
 	
-	var strBooks = "Handlekurv: <br>";
-	for (var u = 0; u < basket.length; u++){
+	
+	for (var u = basket.length-1; u < basket.length; u++){
 		
 		strBooks += allBooksNames[basket[u]] + "<br>";
+		strAlert += allBooksNames[basket[u]] + ", ";
 	}
 	
 	document.getElementById("basketContent").innerHTML = strBooks;
@@ -150,7 +158,9 @@ function getCookie(cname) {
     return "";
 }
 
-
+function pay(){
+	alert("Du har kjøpt: " + strAlert);
+}
 
 
 
