@@ -139,21 +139,15 @@ footer {
 
 
 #menu {
-	float: right;
-	width: 400px;
+
+	width: 300px;
 	display: inline;
-	margin-top: 50px;
+	margin-top: 40px;
 }
 
-#mainheader{
-	font-size: 30px;
-	font-weight:bold;
-	/*border-bottom: solid;
-	margin-right: 500;
-	border-width:thin;*/
-	margin-top: 50px;
-	width: 300px;
-	float: left;	
+#ikonbilde{
+	float: left;
+	padding-left: 10px;
 }
 
 #banner {
@@ -167,23 +161,22 @@ footer {
 }
 
 
-/*  meny css*/
+/*  meny dropdown*/
+#Logo{
+	margin-top: 50px;
+	margin-bottom: 90px;
+	margin-right: 100px;
+	float:right;
+	padding-top: 10px;
 
 
-/* mainmenu må finjusteres*/
-#mainmenu{
-	padding-left:100px;	
 }
 
-.menuwrapper {
-    width:100%;
-    
-    background:red;
-}
- 
 .menu {
-    width:1000px;
-    margin:0px auto;
+    width:580px;
+    float:right;
+    padding-top: 0px;
+
 }
  
 .menu li {
@@ -268,6 +261,8 @@ color: red;
 	display: inline;
 
 	}
+
+
 
 
 
