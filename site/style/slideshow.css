@@ -1,15 +1,14 @@
 
 #slider{
-	height: 350px;
-	width: 890px;
-	margin: 2px auto;
+	height: 310px;
+	width: 1090px;
 	position: relative;
 	overflow: hidden;
 }
 
 #image{
-	height: 350px;
-	width: 890px;
+	height: 310px;
+	width: 1090px;
 	position: absolute;
 }
 
