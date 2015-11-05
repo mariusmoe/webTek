@@ -49,10 +49,14 @@
 				 </nav>
 				
 <!-- ----------------------------------------------------------------- -->
-
+		<p>Spørsmål 1:</p>
 		<button onclick="question1()">Read answer</button>
-
 		<p id="questions"></p>
+
+		<p>Spørsmål 2:</p>
+		<button onclick="question2()">Read answer</button>
+		<p id="questions2"></p>
+
 
 		<script>
 		var liste=[];
@@ -68,6 +72,16 @@
 			}else{
 			document.getElementById("questions").innerHTML = "";
 			liste[0]==true;
+					}
+			}
+			
+			function question2() {
+			if (liste[1]==true){
+		    document.getElementById("questions2").innerHTML = "svar";
+		    liste[1]==false
+			}else{
+			document.getElementById("questions2").innerHTML = "";
+			liste[1]==true;
 					}
 			}
 
