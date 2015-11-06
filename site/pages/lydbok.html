@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<link rel="stylesheet" type="text/css" href="../style/main.css">
+		<link rel="stylesheet" type="text/css" href="../style/slideshow.css">
+		<script src="../script/slideshow.js"></script>
+		<title>Hjem</title>
+	</head>
+	<body>
+	<div id="banner">
+			<div id="ikonbilde">
+			<a href="index.html"> <img id = "ikon" src="../images/logo.jpg" style="width:160px;height:130px;">
+			</a>	
+			</div>
+			<!-- this is the div for the top menu -->
+		
+			    <nav class="menu">
+			        <ul class="clearfix">
+			            
+			            <li><a href="index.html">Hjem</a></li>
+			            <li>
+			                <a href="#">Bøker </a>
+			 
+			                <ul class="sub-menu">
+			                    <li><a href="komedie.html">Komedie</a></li>
+			                    <li><a href="tegneserier.html">Tegneserier</a></li>
+			                    <li><a href="fantasy.html">Fantasy</a></li>
+			                    <li><a href="barneboker.html">barnebøker</a></li>
+			                    <li><a href="action.html">Action</a></li>
+			                </ul>
+			            </li>
+			            <li><a href="om.html">Om</a></li>
+			            <li><a href="support.html">Support</a></li>
+	     
+			        </ul>
+			    </nav>
+		</div>
+		<div id="content-body">
+			<div id="box">
+		
+				
+<!-- ----------------------------------------------------------------- -->
+				<div id="editable">
+						
+						<div id="basketContent"></div>
+				<br>
+				<div class="basketButons">
+            		<button id="print-to-console" onclick="print()">Print</button>
+            		<button id="clear-books-button" onclick="clearBooks()">clear</button>
+            		<button id="pay-button" onclick="pay()">Gå til betaling</button>
+            	</div>
+            	
+						
+						
+					<h2>Annals, Anecdotes and Legends</h2>
+						<img src="../images/books2/bok1.jpg" width="146px" height="235px">
+						<p> Beskrivelse av lydbok her</p><br>
+						<div>
+		            		<button id="book9">Buy</button><br><br>
+		            	</div>
+					<audio controls>
+					  <source src="../sound/lyd1.mp3" type="audio/mpeg"><!-- the sample is provided from the free books project by Gutenberg - https://www.gutenberg.org/-->
+					Your browser does not support the audio element.
+					</audio>
+					
+					
+					
+					
+					<h2>COLTER’S HELL AND JACKSON’S HOLE</h2>
+						<img src="../images/books2/lydbok2.jpg" width="146px" height="235px">
+						<p> Beskrivelse av lydbok her</p><br>
+						<div>
+		            		<button id="book10">Buy</button><br><br>
+		            	</div>
+					<audio controls>
+					  <source src="../sound/lyd2.mp3" type="audio/mpeg"><!-- the sample is provided from the free books project by Gutenberg - https://www.gutenberg.org/-->
+					Your browser does not support the audio element.
+					</audio>
+					
+				    <div id="embedded"></div>
+				</div>
+			</div>
+				
+		
+		<footer>
+		    &copy; Sondre, Birathepan, Hung, Christian, Marius
+		</footer>
+	</div>
+	<script src="../script/buy.js"></script>
+	</body>
+</html>

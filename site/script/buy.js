@@ -4,8 +4,9 @@
 
 //-------emulerer hva en database typisk hadde tatt seg av-------
 var basket = []
-, allBooks = ['book1', 'book2', 'book3', 'book4', 'book5', 'book6', 'book7', 'book8' ]
-, allBooksNames = ['sherlock', 'havfruen', 'hesten', 'billa', 'gammeln', 'boka', 'book7', 'boken om alt']
+, allBooks = ['book1', 'book2', 'book3', 'book4', 'book5', 'book6', 'book7', 'book8', 'book9', 'book10' ]
+, allBooksNames = ['sherlock', 'havfruen', 'hesten', 'billa', 'gammeln', 'boka', 'book7', 'boken om alt',
+                   'Annals, Anecdotes and Legends' , 'COLTER’S HELL AND JACKSON’S HOLE']
 , books = []
 , bug = true
 , first = true;
