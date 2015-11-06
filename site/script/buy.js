@@ -11,7 +11,7 @@ var basket = []
 , bug = true
 , first = true;
 
-/*
+/**
  * get all the buy buttons and add them to a array
  * hacky solution because ECMAscript is derp and on runtime :(  
  */
@@ -29,7 +29,7 @@ if (bug){
 	console.log(books);
 }
 
-/*
+/**
  * not exactly a method :D
  * add a eventlistener to every button
  */
@@ -67,7 +67,7 @@ for (var u = 0; u < basket.length; u++){
 	strBooks += allBooksNames[basket[u]] + "<br>";
 	strAlert += allBooksNames[basket[u]] + ", ";
 }
-/*
+/**
  * adds the selected book to a array containing all the selected books and create a cookie 
  * containing the same information.
  * Method also change the text in the selected button 
@@ -107,7 +107,7 @@ function addToBasket(book){
 	
 	
 } 
-/*
+/**
  * @return arrSored		a array of the books in the basket 
  */
 function print(){
@@ -118,7 +118,7 @@ function print(){
 	return arrStored;
 }
 
-/*
+/**
  * clears the cookie with the books ready for purchase and the array containing the same
  */
 function clearBooks(){
@@ -128,7 +128,7 @@ function clearBooks(){
 }
 
 
-/*
+/**
  * method is taken from w3s's examples and is free to use.
  * stores a cookie locally on the clients machine 
  * @param cname		name of the cookie to be created
@@ -142,7 +142,7 @@ function setCookie(cname, cvalue, exdays) {
     document.cookie = cname + "=" + cvalue + "; " + expires;
 }
 
-/*
+/**
  * method is taken from w3s's examples and is free to use.
  * retries the cookie created by setCookie()
  * @param cname		name of the cookie to be retrieved. 
