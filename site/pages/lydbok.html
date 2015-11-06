@@ -31,37 +31,52 @@
 			                </ul>
 			            </li>
 			            <li><a href="om.html">Om</a></li>
-			            <li><a href="om.html">Support</a></li>
+			            <li><a href="support.html">Support</a></li>
 	     
 			        </ul>
 			    </nav>
 		</div>
 		<div id="content-body">
 			<div id="box">
-			<!-- 
-			    <nav>
-				    <div class="placeholder">
-					    <img src="" height="400" width="100%"/>
-					    <span>Navigation</span>
-					</div>
-				</nav>
-				 -->
-
-				 <div id="slider"> 
-					<img src="../images/slide1.jpg" id="image">
-					<br>
-					<div class="left_hold"><img onClick="photo(-1)" class="left" src="../images/arrow_left.png"></div>
-					<div class="right_hold"><img onClick="photo(1)" class="right" src="../images/arrow_right.png"></div>
-					
-				</div>
+		
 				
 <!-- ----------------------------------------------------------------- -->
 				<div id="editable">
-					<div id="subheadings"> </div>
+						
+						<div id="basketContent"></div>
+				<br>
+				<div class="basketButons">
+            		<button id="print-to-console" onclick="print()">Print</button>
+            		<button id="clear-books-button" onclick="clearBooks()">clear</button>
+            		<button id="pay-button" onclick="pay()">Gå til betaling</button>
+            	</div>
+            	
+						
+						
+					<h2>Annals, Anecdotes and Legends</h2>
+						<img src="../images/books2/bok1.jpg" width="146px" height="235px">
+						<p> Beskrivelse av lydbok her</p><br>
+						<div>
+		            		<button id="book9">Buy</button><br><br>
+		            	</div>
+					<audio controls>
+					  <source src="../sound/lyd1.mp3" type="audio/mpeg"><!-- the sample is provided from the free books project by Gutenberg - https://www.gutenberg.org/-->
+					Your browser does not support the audio element.
+					</audio>
 					
-					<iframe src="http://www.facebook.com/plugins/likebox.php?href=https://www.facebook.com/noahspapir/?ref=br_rs&width=600&colorscheme=light&show_faces=true&border_color&stream=true&header=true&height=540" 
-					scrolling="yes" frameborder="0" style="border:none; overflow:hidden; width:500px; height:540px; background: white; " allowtransparency="true">
-					</iframe>
+					
+					
+					
+					<h2>COLTER’S HELL AND JACKSON’S HOLE</h2>
+						<img src="../images/books2/lydbok2.jpg" width="146px" height="235px">
+						<p> Beskrivelse av lydbok her</p><br>
+						<div>
+		            		<button id="book10">Buy</button><br><br>
+		            	</div>
+					<audio controls>
+					  <source src="../sound/lyd2.mp3" type="audio/mpeg"><!-- the sample is provided from the free books project by Gutenberg - https://www.gutenberg.org/-->
+					Your browser does not support the audio element.
+					</audio>
 					
 				    <div id="embedded"></div>
 				</div>
@@ -72,5 +87,6 @@
 		    &copy; Sondre, Birathepan, Hung, Christian, Marius
 		</footer>
 	</div>
+	<script src="../script/buy.js"></script>
 	</body>
 </html>
