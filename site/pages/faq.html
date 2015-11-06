@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<link rel="stylesheet" type="text/css" href="../style/main.css">
+		<title>Om Noahs papir</title>
+	</head>
+<body>
+
+	<div id="ikonbilde"><img src="../images/logo.jpg" alt="Mountain View" style="width:304px;height:228px;"></div>	
+
+
+	<div id="Logo">Noah`s papir</div>	
+	<br>
+			<!-- this is the div for the top menu -->
+			
+			    <nav class="menu">
+			        <ul class="clearfix">
+			            
+			            <li><a href="index.html">Hjem</a></li>
+			            <li>
+			                <a href="#">Bøker </a>
+			 
+			                <ul class="sub-menu">
+			                    <li><a href="komedie.html">Komedie</a></li>
+			                    <li><a href="tegneserier.html">Tegneserier</a></li>
+			                    <li><a href="fantasy.html">Fantasy</a></li>
+			                    <li><a href="barneboker.html">barnebøker</a></li>
+			                    <li><a href="action.html">Action</a></li>
+			                </ul>
+			            </li>
+			            <li><a href="om.html">Om</a></li>
+			            <li><a href="support.html">Support</a></li>
+			            
+			        </ul>
+			    </nav>
+			
+			<div id="box">
+			<!-- 
+			    <nav>
+				    <div class="placeholder">
+					    <img src="" height="400" width="100%"/>
+					    <span>Navigation</span>
+					</div>
+				</nav>
+				 -->
+				 <nav id="banner">
+				 	<p>FAQ</p>				 
+				 </nav>
+				
+<!-- ----------------------------------------------------------------- -->
+		<p>Spørsmål 1:</p>
+		<button onclick="question1()">Read answer</button>
+		<p id="questions"></p>
+
+		<p>Spørsmål 2:</p>
+		<button onclick="question2()">Read answer</button>
+		<p id="questions2"></p>
+
+
+		<script>
+		var liste=[];
+		for (var i = 0; i < 9; i++) {
+			liste.push(true);
+		};
+
+
+		function question1() {
+			if (liste[0]==true){
+		    document.getElementById("questions").innerHTML = "svar";
+		    liste[0]=false
+			}else{
+			document.getElementById("questions").innerHTML = "";
+			liste[0]=true;
+					}
+			}
+			
+			function question2() {
+			if (liste[1]==true){
+		    document.getElementById("questions2").innerHTML = "svar";
+		    liste[1]=false
+			}else{
+			document.getElementById("questions2").innerHTML = "";
+			liste[1]=true;
+					}
+			}
+
+		</script>
+
+
+
+
+
+
+<!-- ----------------------------------------------------------------- -->
+
+		<footer>
+		    &copy; Sondre, Birathepan, Hung, Christian, Marius
+		</footer>
+		
+	</body>
+</html>
