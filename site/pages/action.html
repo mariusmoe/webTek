@@ -3,17 +3,17 @@
 	<head>
 		<meta charset="UTF-8">
 		<link rel="stylesheet" type="text/css" href="../style/main.css">
-		<title>Om Noahs papir</title>
+		<title>Action</title>
 	</head>
 <body>
-
-	<div id="ikonbilde"><img src="../images/logo.jpg" alt="Mountain View" style="width:304px;height:228px;"></div>	
-
-
-	<div id="Logo">Noah`s papir</div>	
-	<br>
+	<!-- Everything in the banner-tag is standard -->
+	<div id="banner">
+			<div id="ikonbilde">
+			<a href="index.html"> <img id = "ikon" src="../images/logo.jpg" style="width:160px;height:130px;">
+			</a>	
+			</div>
 			<!-- this is the div for the top menu -->
-			
+		
 			    <nav class="menu">
 			        <ul class="clearfix">
 			            
@@ -25,129 +25,120 @@
 			                    <li><a href="komedie.html">Komedie</a></li>
 			                    <li><a href="tegneserier.html">Tegneserier</a></li>
 			                    <li><a href="fantasy.html">Fantasy</a></li>
-			                    <li><a href="barneboker.html">barnebøker</a></li>
+			                    <li><a href="barneboker.html">Barnebøker</a></li>
 			                    <li><a href="action.html">Action</a></li>
+			                    <li><a href="lydbok.html">Lydbøker</a></li>
 			                </ul>
 			            </li>
 			            <li><a href="om.html">Om</a></li>
 			            <li><a href="om.html">Support</a></li>
-			            
+	     
 			        </ul>
 			    </nav>
-			
-		
-
-
-			
-	
-			
-			<div id="box">
-			<!-- 
-			    <nav>
-				    <div class="placeholder">
-					    <img src="" height="400" width="100%"/>
-					    <span>Navigation</span>
-					</div>
-				</nav>
-				 -->
-				 <nav id="banner">
-				 	<p>Banner</p>				 
-				 </nav>
+	</div>
+	<!-- content-body is basically the main body for each individual site-->
+	<div id="content-body">
+		<div id="box">
 				
-<!-- ----------------------------------------------------------------- -->
-				<div id="editable">
-											<div id="subheadings"> </div>
+			<div id="editable">
+			<div id="subheadings"> </div>
 				
-				<div id="basketContent"></div>
-				<br>
-				<div class="basketButons">
-            		<button id="print-to-console" onclick="print()">Print</button>
-            		<button id="clear-books-button" onclick="clearBooks()">clear</button>
-            		<button id="pay-button" onclick="pay()">Gå til betaling</button>
-            	</div>
+			<div id="basketContent"></div>
+			<br>
+			<div class="basketButons">
+        		<button id="print-to-console" onclick="print()">Print</button>
+        		<button id="clear-books-button" onclick="clearBooks()">clear</button>
+        		<button id="pay-button" onclick="pay()">Gå til betaling</button>
+        	</div>
             	
-				<label><a href="action.html">Action</a></label>
-				<h1>Action</h1>
-				<p>Denne siden inneholder bøker i kategorien Action. Actionbøker har gjerne bøker som The Hunger Games, Divergent, The Maze Runner og mer. Vanlige normer ved denne sjangeren er en helt som skal enten redde verden, familien, hjembyen eller vennene sine.
-					Det omhandler ofte vold og mord, samtidig som det også kan omhandle komplekse historier og fysikk, som Da Vinci Koden. En annen undersjanger her er også kampsport, der temaet handler om ære.</p><br>
-				<div>
-            		<button id="book3">Buy</button>
-            	</div>
+			<label><a href="action.html">Action</a></label>
+			<h1>Action</h1>
+			<p>Denne siden inneholder bøker i kategorien Action. Actionbøker har gjerne bøker som The Hunger Games, Divergent, The Maze Runner og mer. Vanlige normer ved denne sjangeren er en helt som skal enten redde verden, familien, hjembyen eller vennene sine.
+				Det omhandler ofte vold og mord, samtidig som det også kan omhandle komplekse historier og fysikk, som Da Vinci Koden. En annen undersjanger her er også kampsport, der temaet handler om ære.</p><br>
+			<div>
+        		<button id="book3">Buy</button>
+        	</div>
 
-				<h2>The Hunger Games</h2>
-				<img src="../images/books2/action/hungergames.png" width="146px" height="235px">
-				<p>Reglene for «Dødslekene» er enkle: Tjuefire deltakere sendes ut på en enorm utendørs arena som kan romme alt fra glohet ørken til frossen ødemark.
-					I løpet av en sesong må deltakerne kjempe for livet. Den siste deltakeren som står levende igjen, vinner. Slik begynte det ...</p><br>
-				<div>
-            		<button id="book4">Buy</button>
-            	</div>
+			<h2>The Hunger Games</h2>
+			<img src="../images/books2/action/hungergames.png" width="146px" height="235px">
+			<p>Reglene for «Dødslekene» er enkle: Tjuefire deltakere sendes ut på en enorm utendørs arena som kan romme alt fra glohet ørken til frossen ødemark.
+			I løpet av en sesong må deltakerne kjempe for livet. Den siste deltakeren som står levende igjen, vinner. Slik begynte det ...</p><br>
+			<div>
+        		<button id="book4">Buy</button>
+        	</div>
 
-				<h2>The Hunger Games: Catching Fire</h2>
-				<img src="../images/books2/action/hungergames_catchingfire.png" width="146px" height="235px">
-				<p>Boka bak filmen alle har ventet på ,Opp i flammer, andre bok i THE HUNGER GAMES-trilogien.
-					Mot alle odds vant Katniss og Peeta fra det lutfattige distrikt tolv de årlige Dødslekene.
-					Men seieren ble deres gjennom å trosse det mektige Capitol. Det nådeløse Capitol tapte ansikt og autoritet.
-					Det skjer ikke ustraffet. Et halvt år etter seieren, skal vinnerne ut på en seiersturné gjennom distriktene, der de tvinges til å møte familiene til sine drepte konkurrenter.
-					Igjen opplever de overdådig luksus og hemningsløs fråtsing. Og snart er det tid for de neste Dødslekene.
-					Et ydmyket Capitol lar ingen anledning gå fra seg til å minne befolkningen på hva de har i vente, og forbereder leker med enda mer utspekulerte virkemidler og enda mer spektakulær og grusom teknologi.
-					Samtidig er det noe som ulmer i befolkningen. Det går rykter om begynnende opprør i flere av distriktene.
-					Til sin store redsel skjønner Katniss og Peeta at de har en rolle i dette opprøret, men ennå vet de ikke hva de har i vente. Capitol er rasende. Capitol vil ha hevn ...</p><br>
-				<div>
-            		<button id="book5">Buy</button>
-            	</div>
+			<h2>The Hunger Games: Catching Fire</h2>
+			<img src="../images/books2/action/hungergames_catchingfire.png" width="146px" height="235px">
+			<p>Boka bak filmen alle har ventet på ,Opp i flammer, andre bok i THE HUNGER GAMES-trilogien.
+				Mot alle odds vant Katniss og Peeta fra det lutfattige distrikt tolv de årlige Dødslekene.
+				Men seieren ble deres gjennom å trosse det mektige Capitol. Det nådeløse Capitol tapte ansikt og autoritet.
+				Det skjer ikke ustraffet. Et halvt år etter seieren, skal vinnerne ut på en seiersturné gjennom distriktene, der de tvinges til å møte familiene til sine drepte konkurrenter.
+				Igjen opplever de overdådig luksus og hemningsløs fråtsing. Og snart er det tid for de neste Dødslekene.
+				Et ydmyket Capitol lar ingen anledning gå fra seg til å minne befolkningen på hva de har i vente, og forbereder leker med enda mer utspekulerte virkemidler og enda mer spektakulær og grusom teknologi.
+				Samtidig er det noe som ulmer i befolkningen. Det går rykter om begynnende opprør i flere av distriktene.
+				Til sin store redsel skjønner Katniss og Peeta at de har en rolle i dette opprøret, men ennå vet de ikke hva de har i vente. Capitol er rasende. Capitol vil ha hevn ...
+			</p><br>
+			<div>
+        		<button id="book5">Buy</button>
+        	</div>
 
-				<h2>The Hunger Games: Mockinjay</h2>
-				<img src="../images/books2/action/hungergames_mockingjay.png" width="146px" height="235px">
-				<p>Filmutgave av siste bok i Dødslekene-trilogien.
-					Katniss og Peeta har overlevd Dødslekene for andre gang, men Peeta er tatt til fange og Katniss er ført til Distrikt 13.
-					En revolusjon er på trappene. For at opprøret skal lykkes, må Katniss gå med på å bli en brikke i spillet og ta på seg ansvaret for utallige liv.
-					«Dødslekene» er på en gang fresende samtidskritikk og en gripende kjærlighetshistorie.
-					Siden første bok i trilogien utkom i 2008, har lesere over hele verden latt seg begeistre.</p><br>
-				<div>
-            		<button id="book6">Buy</button>
-            	</div>
+			<h2>The Hunger Games: Mockinjay</h2>
+			<img src="../images/books2/action/hungergames_mockingjay.png" width="146px" height="235px">
+			<p>Filmutgave av siste bok i Dødslekene-trilogien.
+				Katniss og Peeta har overlevd Dødslekene for andre gang, men Peeta er tatt til fange og Katniss er ført til Distrikt 13.
+				En revolusjon er på trappene. For at opprøret skal lykkes, må Katniss gå med på å bli en brikke i spillet og ta på seg ansvaret for utallige liv.
+				«Dødslekene» er på en gang fresende samtidskritikk og en gripende kjærlighetshistorie.
+				Siden første bok i trilogien utkom i 2008, har lesere over hele verden latt seg begeistre.
+			</p><br>
+			<div>
+        		<button id="book6">Buy</button>
+        	</div>
 				
-				<h2>The Maze Runner</h2>
-				<img src="../images/books2/action/themazerunner.jpg" width="146px" height="235px">
-				<p>Fra det øyeblikket Thomas våkner i heisen kan han ikke huske noe annet enn fornavnet sitt.
-					Han har ingen minner om foreldrene, hjemmet, eller hvordan han kom seg dit han er. Hukommelsen er tom.
-					Men han er ikke alene. Idet heisdørene åpnes, befinner Thomas seg brått omgitt av gutter som ønsker ham velkommen til Lysningen - et digert, åpent område omgitt av steinmurer.
-					I likhet med Thomas, aner ingen av lysningsboerne hvorfor og hvordan de havnet i Lysningen.
-					Det eneste de vet er at steinportene ut til labyrinten som omgir dem åpnes hver morgen.
-					At de blir stengt hver kveld. At det én gang i måneden kommer det en ny gutt med heisen. Og at ingen vil bli igjen ute i labyrinten etter mørkets frembrudd.
-					Lysningsboerne hadde ventet seg Thomas' ankomst. Men allerede dagen etter blir det sendt opp en jente i heisen - den aller første jenta som noen gang er kommet til Lysningen.
-					Og enda mer overraskende er den beskjeden hun har med seg. Lysningsboerne har alltid trodd fullt og fast på at de skal klare å løse labyrintens gåte, at de skal klare å finne veien hjem ... hvor enn nå det er. Men det er mer og mer som tyder på at labyrintens gåte er uløselig.
-					Dessuten er det noe ved jentas ankomst som får Thomas til å føle seg annerledes. Noe sier ham at han kanskje selv er den som har noen svar - hvis han bare klarer å gjenvinne de mørke hemmelighetene som er sperret inne i hans indre. </p><br>
-				<div>
-            		<button id="book7">Buy</button>
-            	</div>
+			<h2>The Maze Runner</h2>
+			<img src="../images/books2/action/themazerunner.jpg" width="146px" height="235px">
+			<p>Fra det øyeblikket Thomas våkner i heisen kan han ikke huske noe annet enn fornavnet sitt.
+				Han har ingen minner om foreldrene, hjemmet, eller hvordan han kom seg dit han er. Hukommelsen er tom.
+				Men han er ikke alene. Idet heisdørene åpnes, befinner Thomas seg brått omgitt av gutter som ønsker ham velkommen til Lysningen - et digert, åpent område omgitt av steinmurer.
+				I likhet med Thomas, aner ingen av lysningsboerne hvorfor og hvordan de havnet i Lysningen.
+				Det eneste de vet er at steinportene ut til labyrinten som omgir dem åpnes hver morgen.
+				At de blir stengt hver kveld. At det én gang i måneden kommer det en ny gutt med heisen. Og at ingen vil bli igjen ute i labyrinten etter mørkets frembrudd.
+				Lysningsboerne hadde ventet seg Thomas' ankomst. Men allerede dagen etter blir det sendt opp en jente i heisen - den aller første jenta som noen gang er kommet til Lysningen.
+				Og enda mer overraskende er den beskjeden hun har med seg. Lysningsboerne har alltid trodd fullt og fast på at de skal klare å løse labyrintens gåte, at de skal klare å finne veien hjem ... hvor enn nå det er. Men det er mer og mer som tyder på at labyrintens gåte er uløselig.
+				Dessuten er det noe ved jentas ankomst som får Thomas til å føle seg annerledes. Noe sier ham at han kanskje selv er den som har noen svar - hvis han bare klarer å gjenvinne de mørke hemmelighetene som er sperret inne i hans indre. </p><br>
+			<div>
+        		<button id="book7">Buy</button>
+        	</div>
 				
-				<h2>Da Vinci Koden</h2>
-				<img src="../images/books2/action/davincikoden.jpg" width="146px" height="235px">
-				<p>Når museumskurator på Louvre, Jacques Sauniere, blir brutalt myrdet, tilkalles Robert Langdon, som er professor i religiøs symbologi ved Harvard-universitetet.
-					Ved liket er det en uforståelig kode, og sammen med den franske kryptologen Sophie Neveu finner Langdon spor som fører dem til Da Vincis verker og den hemmelige Sion-ordenen. Boka er filmatisert.
-					Dette er den andre boka om Robert Langdon.</p><br>
-				<div>
-            		<button id="book8">Buy</button>
-            	</div>
+			<h2>Da Vinci Koden</h2>
+			<img src="../images/books2/action/davincikoden.jpg" width="146px" height="235px">
+			<p>
+				Når museumskurator på Louvre, Jacques Sauniere, blir brutalt myrdet, tilkalles Robert Langdon, som er professor i religiøs 	symbologi ved Harvard-universitetet.
+				Ved liket er det en uforståelig kode, og sammen med den franske kryptologen Sophie Neveu finner Langdon spor som fører dem til Da Vincis verker og den hemmelige Sion-ordenen. Boka er filmatisert.
+				Dette er den andre boka om Robert Langdon.
+			</p><br>
+			<div>
+        		<button id="book8">Buy</button>
+        	</div>
 				
-				<h2>Divergent</h2>
-				<img src="../images/books2/action/divergent.jpg" width="146px" height="235px">
-				<p>Dette er historien om Beatrice Rice, kalt Tris, som lever i et fremtidig Chicago.
-					Samfunnet er delt inn i ulike grupper som dyrker frem ulike idealer. På 16-årsdagen må alle gjennom en test for å finne sin gruppe.
-					Testen viser deg hvilken gruppe du er mest egnet til, men du må selv velge.
-					For Tris blir denne avgjørelsen svært vanskelig, og etter hvert skjønner hun at hun er fanget i et farlig spill hvor mangel på kontroll og uærlighet hersker.
-					Spillet blir stadig farligere idet makthaverne skjønner hvem Tris egentlig er ...</p><br>
+			<h2>Divergent</h2>
+			<img src="../images/books2/action/divergent.jpg" width="146px" height="235px">
+			<p>Dette er historien om Beatrice Rice, kalt Tris, som lever i et fremtidig Chicago.
+				Samfunnet er delt inn i ulike grupper som dyrker frem ulike idealer. På 16-årsdagen må alle gjennom en test for å finne sin gruppe.
+				Testen viser deg hvilken gruppe du er mest egnet til, men du må selv velge.
+				For Tris blir denne avgjørelsen svært vanskelig, og etter hvert skjønner hun at hun er fanget i et farlig spill hvor mangel på kontroll og uærlighet hersker.
+				Spillet blir stadig farligere idet makthaverne skjønner hvem Tris egentlig er ...
+			</p><br>
 
-				
-				    <div id="embedded"></div>
-				</div>
+
 			</div>
-				
-		
+		</div>
+
 		<footer>
 		    &copy; Sondre, Birathepan, Hung, Christian, Marius
 		</footer>
-		<script src="../script/buy.js"></script>
+	</div>
+
+	<script src="../script/buy.js"></script>
+
 	</body>
 </html>
