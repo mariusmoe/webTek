@@ -23,6 +23,7 @@ function photoSlideshow(){
 * image counter by one.
 * The difference between this and photoSlideshow() is that
 * this one takes in a parameter
+* @param i i is the counter number (int)
 */
 function photo(i){
 	var image = document.getElementById("image");
