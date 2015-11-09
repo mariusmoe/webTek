@@ -69,6 +69,9 @@ for (var u = 0; u < basket.length; u++){
 	strBooks += allBooksNames[basket[u]] + "<br>";
 	strAlert += allBooksNames[basket[u]] + ", ";
 }
+if (basket.length>0){
+	printToScreen();
+}
 /**
  * adds the selected book to a array containing all the selected books and create a cookie 
  * containing the same information.
@@ -98,17 +101,25 @@ function addToBasket(book){
 	books[book].innerHTML = "Kjøp en til";
 	
 	
-	for (var u = basket.length-1; u < basket.length; u++){
-		
-		strBooks += allBooksNames[basket[u]] + "<br>";
-		strAlert += allBooksNames[basket[u]] + ", ";
-	}
-	
-	document.getElementById("basketContent").innerHTML = strBooks;
-	//document.getElementById("basketContent").innerHTML = basket[0];
-	
-	
+	printToScreen();
+	//document.getElementById("basketContent").innerHTML = basket[0];	
 } 
+/**
+ * print basket to screen
+ */
+function printToScreen(){
+
+	for (var u = basket.length-1; u < basket.length; u++){
+			
+			strBooks += allBooksNames[basket[u]] + "<br>";
+			strAlert += allBooksNames[basket[u]] + ", ";
+		}
+		
+		document.getElementById("basketContent").innerHTML = strBooks;
+}
+
+
+
 /**
  * @return arrSored		a array of the books in the basket 
  */
