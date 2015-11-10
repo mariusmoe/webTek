@@ -216,7 +216,11 @@ color: red;
 
 	}
 
-
+/*Genererer kartet i om.html*/
+#map {
+        height: 470px;
+        margin-right:125px;
+      }
 
 
 

@@ -123,7 +123,7 @@
  */
             function question10() {
             if (liste[9]==true){
-            document.getElementById("questions10").innerHTML = " Denne siden er en studentoppgave. <br>-'its not about the money, its about sending a message...to student-assistants'";
+            document.getElementById("questions10").innerHTML = " Denne siden er en studentoppgave. <br>-'its not about the money, its about sending a message...to student-assistants";
             liste[9]=false
             }else{
             document.getElementById("questions10").innerHTML = "";
