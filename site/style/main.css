@@ -143,7 +143,7 @@ a{
 }
  
 .sub-menu li a:hover, .sub-menu .current-item a {
-    background:#3e3436;
+    background:#3e3436; /*Color = almost black*/
 }
 
 
