@@ -4,10 +4,10 @@ header{
 
 body{
 	width:900px;
-	position: absolute;
-	margin-left:20%;
-	margin-right:20%;
-	background-color: #EFECCA
+	position: relative;
+	margin-left:auto;
+	margin-right:auto;
+	background-color: #EFECCA /*Eggehvit*/
 }
 
 section{
@@ -44,7 +44,7 @@ table{
 }
 
 h1, h2 , h3 {
-	color: #002F2F;
+	color: #002F2F; /*Dark, almost black*/
 	/*color: #A7C6DA*/
 }
 

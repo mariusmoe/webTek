@@ -1,8 +1,16 @@
 /**
- * @author Marius Oscar Moe
+ * @author Marius Oscar Moe <mariusomoe@gmail.com>
  */
 
-//-------emulerer hva en database typisk hadde tatt seg av-------
+/*** 
+ * -- This script emulates what a database often would have taken care of. --
+ * buy3.js is responsible for our shoppingcart. It scans through the html 
+ * document and gives every button with an ID listed in "allBooks" a 
+ * eventListener. When one of these buttons are pushed the corresponding book 
+ * will show up in the shoppingcart and stored as a cookie on the computer. 
+ * This is done so that it is possible to buy books from different genres as 
+ * one order.
+ ***/   
 var basket = []
 , allBooks = ['book1', 'book2', 'book3', 'book4', 'book5', 'book6', 'book7', 'book8', 'book9', 'book10', 'book11', 'book12', 'book13', 'book14', 'book15', 'book16', 'book17', 'book18', 'book19', 'book20', 'book21', 'book22', 'book23', 'book24', 'book25', 'book26', 'book27', 'book28','book29','book30']
 , allBooksNames = ['Lord of The Rings: The fellowship of The Ring', 'The Hobbit', 'The unlucky robot thief', 'The adventure of the asian weightlifter', 'Historen om en gammel mann', 'Bare oppfunnet', 'Ikke mer fantasi igjen', 'Fantasien slår til',
