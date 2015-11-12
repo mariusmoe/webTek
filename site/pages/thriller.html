@@ -4,15 +4,13 @@
 		<meta charset="UTF-8">
 		<link rel="stylesheet" type="text/css" href="../style/main.css">
 		<link rel="stylesheet" type="text/css" href="../style/slideshow.css">
-		<script src="../script/slideshow.js"></script>
 		<title>Hjem</title>
 	</head>
-	<body>
-		
+<body>
 	<div id="banner">
 			<div id="ikonbilde">
-				<a href="index.html"> <img id = "ikon" src="../images/logo.jpg" style="width:160px;height:130px;">
-				</a>	
+			<a href="index.html"> <img id = "ikon" src="../images/logo.jpg" style="width:160px;height:130px;">
+			</a>	
 			</div>
 			<!-- this is the div for the top menu -->
 		
@@ -31,8 +29,7 @@
 			                    <li><a href="action.html">Action</a></li>
 			                    <li><a href="lydbok.html">Lydbøker</a></li>
 			                    <li><a href="thriller.html">Thriller</a></li>
-			                    <li><a href="drama.html">Drama</a></li>
-			                    <li><a href="romaner.html">Romaner</a></li>
+			                    
 			                </ul>
 			            </li>
 			             	<li>
@@ -49,7 +46,7 @@
 	     
 			        </ul>
 			    </nav>
-	</div>
+		</div>
 		<div id="content-body">
 			<div id="box">
 			<!-- 
@@ -60,22 +57,60 @@
 					</div>
 				</nav>
 				 -->
-
-				 <div id="slider"> 
-					<img src="../images/slide1.jpg" id="image">
-					<br>
-					<div class="left_hold"><img onClick="photo(-1)" class="left" src="../images/arrow_left.png"></div>
-					<div class="right_hold"><img onClick="photo(1)" class="right" src="../images/arrow_right.png"></div>
-					
-				</div>
 				
 <!-- ----------------------------------------------------------------- -->
 				<div id="editable">
 					<div id="subheadings"> </div>
-					
-					<iframe src="http://www.facebook.com/plugins/likebox.php?href=https://www.facebook.com/noahspapir/?ref=br_rs&width=600&colorscheme=light&show_faces=true&border_color&stream=true&header=true&height=540" 
-					scrolling="yes" frameborder="0" style="border:none; overflow:hidden; width:500px; height:540px; background: white; " allowtransparency="true">
-					</iframe>
+				<h1>Handlekurv</h1>
+					<button id="clear">Fjern valgte</button><br>
+						<form>
+						<div id="tlist">List</div><br>
+						</form>
+				
+				
+				<div id="basketContent"></div>
+				<br>
+				<div class="basketButons">
+            		
+            		<button id="clear-books-button" onclick="clearBooks()">Fjern alle</button>
+            		<button id="pay-button" onclick="pay()">Gå til betaling</button>
+            	</div>
+            	
+				
+				<h1>Thriller</h1>
+				<p>Denne siden inneholder bøker i kategorien thriller. Bæker i denne kategorien inneholder gjerne elementer av spenning, mysterier, og evt. mord.</p><br>
+				
+
+				<h2>Abnormal Abductions</h2>
+				<img src="../images/books2/thriller/1.jpg" width="146px" height="235px">
+				<p>Engelsk storselger om "Trafficing" miljøet i gibraltar.</p><br>
+				<div>
+            		<button id="book2">Kjøp</button>
+            	</div>
+
+				<h2>Dråper i snøen</h2>
+				<img src="../images/books2/thriller/2.jpg" width="146px" height="235px">
+				<p>Strandet i villmarken var kanskje ikke det du hadde tenkt deg i helgen?</p><br>
+				<div>
+            		<button id="book1">Kjøp</button>
+            	</div>
+
+
+				<h2>Skulldigger</h2>
+				<img src="../images/books2/thriller/3.jpg" width="146px" height="235px">
+				<p>Richerd Gullagard er en utradisjonell hodejeger i "Skulldigger"</p><br>
+				<div>
+            		<button id="book19">Kjøp</button>
+            	</div>
+				
+				
+				<h2>Moonligth man</h2>
+				<img src="../images/books2/thriller/4.jpg" width="146px" height="235px">
+				<p>Spennende bok om mørkets hemmeligheter</p><br>
+				<div>
+            		<button id="book20">Kjøp</button>
+            	</div>
+				<!-- slutt på Thriller -->
 					
 				    <div id="embedded"></div>
 				</div>
@@ -85,6 +120,6 @@
 		<footer>
 		    &copy; Sondre, Birathepan, Hung, Christian, Marius
 		</footer>
-	</div>
+		<script src="../script/buy3.js"></script>
 	</body>
 </html>

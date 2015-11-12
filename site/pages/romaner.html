@@ -4,15 +4,13 @@
 		<meta charset="UTF-8">
 		<link rel="stylesheet" type="text/css" href="../style/main.css">
 		<link rel="stylesheet" type="text/css" href="../style/slideshow.css">
-		<script src="../script/slideshow.js"></script>
 		<title>Hjem</title>
 	</head>
-	<body>
-		
+<body>
 	<div id="banner">
 			<div id="ikonbilde">
-				<a href="index.html"> <img id = "ikon" src="../images/logo.jpg" style="width:160px;height:130px;">
-				</a>	
+			<a href="index.html"> <img id = "ikon" src="../images/logo.jpg" style="width:160px;height:130px;">
+			</a>	
 			</div>
 			<!-- this is the div for the top menu -->
 		
@@ -49,7 +47,7 @@
 	     
 			        </ul>
 			    </nav>
-	</div>
+		</div>
 		<div id="content-body">
 			<div id="box">
 			<!-- 
@@ -60,22 +58,60 @@
 					</div>
 				</nav>
 				 -->
-
-				 <div id="slider"> 
-					<img src="../images/slide1.jpg" id="image">
-					<br>
-					<div class="left_hold"><img onClick="photo(-1)" class="left" src="../images/arrow_left.png"></div>
-					<div class="right_hold"><img onClick="photo(1)" class="right" src="../images/arrow_right.png"></div>
-					
-				</div>
 				
 <!-- ----------------------------------------------------------------- -->
 				<div id="editable">
 					<div id="subheadings"> </div>
-					
-					<iframe src="http://www.facebook.com/plugins/likebox.php?href=https://www.facebook.com/noahspapir/?ref=br_rs&width=600&colorscheme=light&show_faces=true&border_color&stream=true&header=true&height=540" 
-					scrolling="yes" frameborder="0" style="border:none; overflow:hidden; width:500px; height:540px; background: white; " allowtransparency="true">
-					</iframe>
+				<h1>Handlekurv</h1>
+					<button id="clear">Fjern valgte</button><br>
+						<form>
+						<div id="tlist">List</div><br>
+						</form>
+				
+				
+				<div id="basketContent"></div>
+				<br>
+				<div class="basketButons">
+            		
+            		<button id="clear-books-button" onclick="clearBooks()">Fjern alle</button>
+            		<button id="pay-button" onclick="pay()">Gå til betaling</button>
+            	</div>
+            	
+				
+				<h1>Romaner</h1>
+				<p>Om kjerlighet og forelskelse er noe for deg, så er disse bøkene rett valg.</p><br>
+				
+
+				<h2>Roseskandalen</h2>
+				<img src="../images/books2/romaner/1.jpg" width="146px" height="235px">
+				<p>Utroskapets mange sider.</p><br>
+				<div>
+            		<button id="book2">Kjøp</button>
+            	</div>
+
+				<h2>The chains of love</h2>
+				<img src="../images/books2/romaner/2.jpg" width="146px" height="235px">
+				<p>Å elske er ikke bare bare.</p><br>
+				<div>
+            		<button id="book1">Kjøp</button>
+            	</div>
+
+
+				<h2>Timeless</h2>
+				<img src="../images/books2/romaner/3.jpg" width="146px" height="235px">
+				<p>Et mesterverk av en roman.</p><br>
+				<div>
+            		<button id="book19">Kjøp</button>
+            	</div>
+				
+				
+				<h2>The temple of love</h2>
+				<img src="../images/books2/romaner/4.jpg" width="146px" height="235px">
+				<p>(¬‿¬) ಠ_ಠ</p><br>
+				<div>
+            		<button id="book20">Kjøp</button>
+            	</div>
+				<!-- slutt på Romaner -->
 					
 				    <div id="embedded"></div>
 				</div>
@@ -85,6 +121,6 @@
 		<footer>
 		    &copy; Sondre, Birathepan, Hung, Christian, Marius
 		</footer>
-	</div>
+		<script src="../script/buy3.js"></script>
 	</body>
 </html>
