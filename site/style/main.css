@@ -91,16 +91,21 @@ a{
 .menu li ul a {
     color:#919191; /*Color = dark gray*/
 }
+
+.menu li li li ul{
+	display:none;
+}
+
+.menu ul li ul li ul li{
+	display: none;
+}
  
 .menu li:hover > a, .menu .current-item > a {
     text-decoration:none;
     color:#6bb4e9; /*Color = light blue*/
 }
  
-.menu .arrow {
-    font-size:11px;
-    line-height:0%;
-}
+
  
 /*----- Top Level -----*/
 .menu > ul > li {
@@ -152,6 +157,32 @@ a{
 .sub-menu li a:hover, .sub-menu .current-item a {
     background:#3e3436; /*Color = almost black*/
 }
+
+.sub-sub-menu{
+    position: absolute;
+    top: 0;
+    right: -150px;
+    width: 150px;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: none;  /*  display inline for å få tekst */
+}
+
+
+/* Skal hover over romaner for at neste blokk .sub-sub-menu skal vises*/
+.sub-menu li:hover > ul
+{
+    display: inline;
+}
+
+
+.sub-sub-menu li,.sub-sub-menu
+{
+    background: #2e2728;
+}
+
+
 
 
 .basketButons {
