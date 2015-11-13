@@ -97,13 +97,14 @@ a{
 }
 
 .menu ul li ul li ul li{
-	display: none;
+	display: inline;
 }
  
 .menu li:hover > a, .menu .current-item > a {
     text-decoration:none;
     color:#6bb4e9; /*Color = light blue*/
 }
+
  
 
  
@@ -166,7 +167,7 @@ a{
     list-style: none;
     padding: 0;
     margin: 0;
-    display: none;  /*  display inline for å få tekst */
+    display: inline;  /*  display inline for å få tekst */
 }
 
 

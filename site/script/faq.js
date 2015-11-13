@@ -25,8 +25,7 @@
         svar.push("svar");
         svar.push(" Denne siden er en studentoppgave. <br>-'its not about the money, its about sending a message...to student-assistants");
 
-
-            /*
+             /*
  *  function that shows and hides the answer
  */    
         function question1() {
