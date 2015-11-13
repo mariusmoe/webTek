@@ -16,7 +16,7 @@
         var svar=[];
         svar.push("Hvis du ikke får betalt for bøkene er det bare å kontakte oss på support");
         svar.push("Hvis vi mangler noen bøker som dere gjerne ville ha, er det bare å sende melding til oss på support. Vi vil gjøre best mulig for å få tak i bøkene for å fylle kundenes behov");
-        svar.push("Mandag-Fredag: 8:00- 18:00, Lørdag:9:00-18:00. Stengt under helligdager ");
+        svar.push("Mandag-Fredag: 10:00- 18:00, Lørdag:10:00-16:00. Stengt under helligdager ");
         svar.push( "Det er dessverre ikke mulig å skaffe eierskap i bedriften enda. Sem(vår CEO) har en emosjonell tilknytning til butikken.");
         svar.push("Under dagene vi har bokkvelder, leser vi litt av noen bøker og gir anmeldelse");
         svar.push("Vi søker ikke ansatte for øyeblikket, men det er mulig vi kommer til å øke bemanningen hvis vi skal utvide lokalet vårt ");

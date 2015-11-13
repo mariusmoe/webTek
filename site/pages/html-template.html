@@ -1,52 +1,82 @@
+<!DOCTYPE html>
 <html>
 	<head>
 		<meta charset="UTF-8">
 		<link rel="stylesheet" type="text/css" href="../style/main.css">
-		<title>Om Noahs papir</title>
+		<title></title>
 	</head>
 <body>
-				
-		<div id="main">
-
-			<div id="mainheader"> Noah's papir </div>
-			
+		<div id="banner">
+			<div id="ikonbilde">
+			<a href="index.html"> <img id = "ikon" src="../images/logo.jpg" style="width:160px;height:130px;">
+			</a>	
+			</div>
 			<!-- this is the div for the top menu -->
-			<div id="menu">
-					<label><a href="index.html">Hjem </a></label>
-					<label><a href="pages/om.html">Om</a></label>
+		
+			    <nav class="menu">
+			        <ul class="clearfix">
+			            
+			            <li><a href="index.html">Hjem</a></li>
+			            <li>
+			                <a href="#">Bøker </a>
+			 
+			                <ul class="sub-menu">
+			                    <li><a href="komedie.html">Komedie</a></li>
+			                    <li><a href="tegneserier.html">Tegneserier</a></li>
+			                    <li><a href="fantasy.html">Fantasy</a></li>
+			                    <li><a href="barneboker.html">Barnebøker</a></li>
+			                    <li><a href="action.html">Action</a></li>
+			                    <li><a href="lydbok.html">Lydbøker</a></li>
+			                </ul>
+			            </li>
+			          	<li>
+			                <a href="#">Info</a>
+			           		<ul class="sub-menu">
+			            	<li><a href="om.html">Om</a></li>
+			            	<li><a href="faq.html">FAQ</a></li>
+			            	 </ul>
+			            	</li>
 
-			</div>
-			
-			<div id="box">
-		   	<!--  Dpricated -- 
-		   	<div id="topmenu">
-		   		<label><a href="index.html">Hjem </a></label>
-		   		<label><a href="pages/om.html">Om</a></label>
-		   	</div>
-		   	-->
-
-		    <nav>
-		    <div class="placeholder">
-			    <img src="" height="400" width="100%"/>
-			    <span>Navigation</span>
-			</div>
-
+			           
+			            <li><a href="om.html#support"> Support</a></li>
+	     
+	     
+			        </ul>
+			    </nav>
+	</div>
+	<!-- content-body is basically the main body for each individual site-->
+	<div id="content-body">
+		<div id="box">
 				
-			</nav>
-			
 			<div id="editable">
-				<div id="subheadings"> </div>
+			<div id="subheadings"> </div>
+			
+			<h1>Handlekurv</h1>
+					<button id="clear">Fjern valgte</button><br>
+						<form>
+						<div id="tlist">List</div><br>
+						</form>
 				
-				<p>innhold</p>
-				
-			    <div id="embedded"></div>
+			<div id="basketContent"></div>
+			<br>
+			<div class="basketButons">
+        		
+        		<button id="clear-books-button" onclick="clearBooks()">Fjern alle</button>
+        		<button id="pay-button" onclick="pay()">Gå til betaling</button>
+        	</div>
+            	
+        	</div>
+
+
 			</div>
-			</div>
-				
 		</div>
+
 		<footer>
 		    &copy; Sondre, Birathepan, Hung, Christian, Marius
 		</footer>
+	</div>
+
+	<script src="../script/buy3.js"></script>
 			
 	</body>
 </html>
