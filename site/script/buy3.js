@@ -1,8 +1,16 @@
 /**
- * @author Marius Oscar Moe
+ * @author Marius Oscar Moe <mariusomoe@gmail.com>
  */
 
-//-------emulerer hva en database typisk hadde tatt seg av-------
+/*** 
+ * -- This script emulates what a database often would have taken care of. --
+ * buy3.js is responsible for our shoppingcart. It scans through the html 
+ * document and gives every button with an ID listed in "allBooks" a 
+ * eventListener. When one of these buttons are pushed the corresponding book 
+ * will show up in the shoppingcart and stored as a cookie on the computer. 
+ * This is done so that it is possible to buy books from different genres as 
+ * one order.
+ ***/   
 var basket = []
 , allBooks = ['book1', 'book2', 'book3', 'book4', 'book5', 'book6', 'book7', 'book8', 'book9', 'book10', 'book11', 'book12', 'book13', 'book14', 'book15', 'book16', 'book17', 'book18', 'book19', 'book20', 'book21', 'book22', 'book23', 'book24', 'book25', 'book26', 'book27', 'book28','book29','book30']
 , allBooksNames = ['Lord of The Rings: The fellowship of The Ring', 'The Hobbit', 'The unlucky robot thief', 'The adventure of the asian weightlifter', 'Historen om en gammel mann', 'Bare oppfunnet', 'Ikke mer fantasi igjen', 'Fantasien slår til',
@@ -11,8 +19,18 @@ var basket = []
                    , 'The adventure of the asian weightlifter', 'Energikilden', 'Dyrenes verden', 'Tut-Tut', 'Vår første halloween', 'Bye Pi Pie', 'Andre verdenskrig', 'Learn Javascript']
 , books = []
 , bug = true
-, first = true;
+, first = true
+, selectedBooks = [];
 
+//----------------------------------------------------------------------
+var clear = document.getElementById("clear")
+, tlist = document.getElementById("tlist");
+
+
+clear.addEventListener('click', clearList);
+
+var tasks = [];
+//----------------------------------------------------------------------
 /**
  * get all the buy buttons and add them to a array
  * hacky solution because ECMAscript is derp and on runtime :(  
@@ -57,18 +75,23 @@ if (stored){
 	basket = stored.split('|');
 }
 else{
-	document.getElementById("basketContent").innerHTML = "Din handlekurv er tom";
+	//document.getElementById("basketContent").innerHTML = "Din handlekurv er tom";
 }
 
 
 var temp ="";
 var strBooks = "Handlekurv: <br>"
 , strAlert = "";
-for (var u = 0; u < basket.length; u++){
-	
-	strBooks += allBooksNames[basket[u]] + "<br>";
-	strAlert += allBooksNames[basket[u]] + ", ";
+function init(){
+	for (var u = 0; u < basket.length-1; u++){
+		
+		strBooks += allBooksNames[basket[u]] + "<br>";
+		strAlert += allBooksNames[basket[u]] + ", ";
+		selectedBooks.push(allBooksNames[basket[u]]);
+	}
+	updateList();
 }
+init();
 if (basket.length>0){
 	printToScreen();
 }
@@ -113,9 +136,10 @@ function printToScreen(){
 			
 			strBooks += allBooksNames[basket[u]] + "<br>";
 			strAlert += allBooksNames[basket[u]] + ", ";
+			selectedBooks.push(allBooksNames[basket[u]]);
 		}
-		
-		document.getElementById("basketContent").innerHTML = strBooks;
+		updateList();
+		//document.getElementById("basketContent").innerHTML = strBooks;
 }
 
 
@@ -171,7 +195,9 @@ function getCookie(cname) {
     console.log("Not found");
     return "";
 }
-
+/**
+ * Instead of a real payment solution :D 
+ */
 function pay(){
 	alert("Du har kjøpt: " + strAlert);
 }
@@ -179,6 +205,94 @@ function pay(){
 
 
 
+
+
+/**
+ * The following methods is taken from exercise 7.2, but heavely modefied 
+ */
+function addTask(){
+
+	var input = document.getElementById("newTask").value;
+	
+	tasks.push(input.toString());
+	updateList();
+
+	input = document.getElementById("newTask").value = "";
+}
+
+/**
+ * Updates the shopping-cart/list and create a new cookie
+ */
+function updateList(){
+	var strList = "";
+	tasks = selectedBooks;
+	console.log(tasks)
+	var o_temp=[];
+	for (var u=0; u < tasks.length; u++){
+			//basket = [1,4,22,11,7]
+			o_temp.push(allBooksNames.indexOf(tasks[u]));
+	}
+
+	console.log("o_temp: "+ o_temp);
+	//basket = [];//odelegger
+	setCookie('cbasket',"",-1);
+	var o_str = "";
+	for (var s=0; s < tasks.length; s++){
+			//basket = [1,4,22,11,7]
+			o_str = temp + o_temp.join('|');
+			
+		}
+	console.log(o_str)
+	setCookie('cbasket', o_str, 2);
+
+	strBooks = "";
+	strAlert = "";
+	for (var u = 0; u < tasks.length; u++){
+		
+		strBooks += tasks[u] + "<br>";
+		strAlert += tasks[u] + ", ";
+		//selectedBooks.push(allBooksNames[basket[u]]);
+	}
+
+	//document.getElementById("basketContent").innerHTML = strBooks;
+
+
+	for (var i=0;i<tasks.length;i++){
+		strList += "<input type='checkbox' name='days' value='"+ tasks[i]+" ' />"+  tasks[i]+"<br>";
+	}
+	tlist.innerHTML = strList;
+	
+}
+
+/**
+ * See what is checked of in the document(checkboxes)  
+ */
+function clearList(){
+	var taskForm = document.forms[0];
+    var txt = "";
+    var i;
+    var index = 0;
+    for (i = 0; i < taskForm.length; i++) {
+        if (taskForm[i].checked) {
+            txt = taskForm[i].value.toString();
+            if (tasks.indexOf(taskForm[i].value)-1 == tasks.length){
+            	tasks.splice(tasks.indexOf(taskForm[i].value),1)
+            }
+            else{
+            	
+            	txt = txt.substring(0, txt.length - 1);
+            	for (var m=0;m<tasks.length;m++){
+            		if (String(txt)==String(tasks[m])){
+            			index=m;
+            		} 
+            	}
+            	tasks.splice(index,1);
+        	}
+        }
+    }
+    selectedBooks = tasks;
+    updateList();
+}
 
 
 

@@ -3,17 +3,18 @@
 	<head>
 		<meta charset="UTF-8">
 		<link rel="stylesheet" type="text/css" href="../style/main.css">
-		<link rel="stylesheet" type="text/css" href="../style/slideshow.css">
-		<title>Hjem</title>
+		<title>Pensumbøker</title>
 	</head>
-	<body>
+<body>
+
 	<div id="banner">
-			<div id="ikonbilde">
-			<a href="index.html"> <img id = "ikon" src="../images/logo.jpg" style="width:160px;height:130px;">
-			</a>	
-			</div>
+		<div id="ikonbilde">
+			<a href="index.html"><img id="ikon" src="../images/logo.jpg" style="width:160px;height:130px;">
+			</a>
+		</div>	
+
 			<!-- this is the div for the top menu -->
-		
+			
 			    <nav class="menu">
 			        <ul class="clearfix">
 			            
@@ -30,7 +31,7 @@
 			                    <li><a href="lydbok.html">Lydbøker</a></li>
 			                </ul>
 			            </li>
-			            	<li>
+			          <li>
 			                <a href="#">Info</a>
 			           		<ul class="sub-menu">
 			            	<li><a href="om.html">Om</a></li>
@@ -40,26 +41,37 @@
 
 			           
 			            <li><a href="om.html#support"> Support</a></li>
-	     
-	     
+			            
 			        </ul>
 			    </nav>
-		</div>
-		<div id="content-body">
+			
+	</div>
+
+
+			
+	
+		<div id="content-body">	
 			<div id="box">
-		
+			<!-- 
+			    <nav>
+				    <div class="placeholder">
+					    <img src="" height="400" width="100%"/>
+					    <span>Navigation</span>
+					</div>
+				</nav>
+				 -->
 				
 <!-- ----------------------------------------------------------------- -->
 				<div id="editable">
-				
+											<div id="subheadings"> </div>
 				<h1>Handlekurv</h1>
 					<button id="clear">Fjern valgte</button><br>
 						<form>
 						<div id="tlist">List</div><br>
 						</form>
 				
-						
-						<div id="basketContent"></div>
+				
+				<div id="basketContent"></div>
 				<br>
 				<div class="basketButons">
             		
@@ -67,44 +79,41 @@
             		<button id="pay-button" onclick="pay()">Gå til betaling</button>
             	</div>
             	
-				<h1>Lydbøker</h1>
-				<p>Her kan du finne mange spennende lydbøker.</p><br>
-						
-						
-					<h2>Annals, Anecdotes and Legends</h2>
-						<img src="../images/books2/bok1.jpg" width="146px" height="235px">
-						<p> Beskrivelse av lydbok her</p><br>
-						<div>
-		            		<button id="book9">Kjøp</button><br><br>
-		            	</div>
-					<audio controls>
-					  <source src="../sound/lyd1.mp3" type="audio/mpeg"><!-- the sample is provided from the free books project by Gutenberg - https://www.gutenberg.org/-->
-					Your browser does not support the audio element.
-					</audio>
-					
-					
-					
-					
-					<h2>COLTER’S HELL AND JACKSON’S HOLE</h2>
-						<img src="../images/books2/lydbok2.jpg" width="146px" height="235px">
-						<p> Beskrivelse av lydbok her</p><br>
-						<div>
-		            		<button id="book10">Kjøp</button><br><br>
-		            	</div>
-					<audio controls>
-					  <source src="../sound/lyd2.mp3" type="audio/mpeg"><!-- the sample is provided from the free books project by Gutenberg - https://www.gutenberg.org/-->
-					Your browser does not support the audio element.
-					</audio>
-					
-				    <div id="embedded"></div>
+				
+				<h1>Pensumbøker</h1>
+				<p>Denne siden inneholder faglitteratur om mange forskjellige emner. Vi har både matematikk, historie, IT og mer! </p><br>
+				
+
+				<h2>Bye Pi Pie</h2>
+				<img src="../images/books2/pensumboker/pipie.jpg" width="146px" height="235px">
+				<p>Dette er en matematikkbok som er pensum i faget Geometri og Trigonometri. Om du gir opp matematikk han du si hadet til Pi og gå og bli baker. Ain't no lie, bye pi pie.</p><br>
+				<div>
+            		<button id="book28">Kjøp</button>
+            	</div>
+
+				<h2>Andre verdenskrig</h2>
+				<img src="../images/books2/pensumboker/ww2.jpg" width="146px" height="235px">
+				<p> Dette er en historiebok som handler om andre verdenskrig. Dette er pensum i faget Historie 101 HI10169. </p><br>
+				<div>
+            		<button id="book29">Kjøp</button>
+            	</div>
+
+
+				<h2>Learn Javascript</h2>
+				<img src="../images/books2/pensumboker/js.jpg" width="146px" height="235px">
+				<p> "Learn Javascript" is a small pocket sized book, with tips and tricks, syntax, and basic Javascript. If you already know HTML and CSS, and want to learn Javascript, this is the book for you! </p><br>
+				<div>
+            		<button id="book30">Kjøp</button>
+            	</div>
+				
+				
 				</div>
 			</div>
-				
 		
 		<footer>
 		    &copy; Sondre, Birathepan, Hung, Christian, Marius
 		</footer>
+		<script src="../script/buy3.js"></script>
 	</div>
-	<script src="../script/buy3.js"></script>
 	</body>
 </html>
