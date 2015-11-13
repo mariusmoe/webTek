@@ -1,7 +1,7 @@
 /*Initialiserer kartet*/
-/*
+
 function initMap() {
-  var shop = {lat: 63.429272, lng: 10.388645};
+  var shop = {lat: 63.424009, lng: 10.394774};
 
   var map = new google.maps.Map(document.getElementById('map'), {
     zoom: 18,
@@ -18,11 +18,11 @@ function initMap() {
     title: "Noah's papir"
   });
 }
-*/
 
+/*FORSØK PÅ GEOLOCATION
 function initMap() {
   var map = new google.maps.Map(document.getElementById('map'), {
-    center: {lat: 63.429272, lng: 10.388645},
+    center: {lat: 59.923778, lng: 10.707108},
     zoom: 18
   });
   var infoWindow = new google.maps.InfoWindow({map: map});
@@ -53,3 +53,4 @@ function handleLocationError(browserHasGeolocation, infoWindow, pos) {
                         'Error: The Geolocation service failed.' :
                         'Error: Your browser doesn\'t support geolocation.');
 }
+*/
