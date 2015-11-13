@@ -48,3 +48,14 @@ h1, h2 , h3 {
 	/*color: #A7C6DA*/
 }
 
+IMG.displayed {
+    display: block;
+    margin-left: auto;
+    margin-right: auto 
+}
+    
+#byline {
+	color: #333;
+	font-size: 10pt;
+	text-align: center; 
+}
