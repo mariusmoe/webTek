@@ -42,5 +42,5 @@ function photo(i){
 * picture every 5 seconds (runs photoSlideshow() every 5 seconds)
 */
 function interval(){
-	window.setInterval(photoSlideshow, 5000);
+	window.setInterval(photoSlideshow, 8000);
 }
