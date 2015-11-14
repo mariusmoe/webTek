@@ -134,7 +134,14 @@ function addToBasket(book){
 	
 	
 	printToScreen();
-	//document.getElementById("basketContent").innerHTML = basket[0];	
+	//document.getElementById("basketContent").innerHTML = basket[0];
+
+	//Shopping cart confirmation on the top of the screen
+	document.getElementById("buyconfirm").style.visibility = "visible";
+
+	setTimeout(function(){
+		document.getElementById("buyconfirm").style.visibility = "hidden";
+	}, 2200);	
 } 
 /**
  * print basket to screen

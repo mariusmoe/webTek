@@ -6,7 +6,9 @@
 		<title>Pensumbøker</title>
 	</head>
 <body>
-
+	<div id="buyconfirm"> 
+		<p> &#9989; Du har lagt til varen i handlekurven </p>
+	</div>
 	<div id="banner">
 		<div id="ikonbilde">
 			<a href="index.html"><img id="ikon" src="../images/logo.jpg" style="width:160px;height:130px;">
@@ -41,12 +43,26 @@
 			            	 </ul>
 			          </li>
 			          <li><a href="om.html#support"> Support</a></li>
+			          <li><a href="shoppingcart.html"> <img src="../images/cart.png" style="width:30px; height:30px;"></a></li>
 			        </ul>
 			</nav>		
 	</div>
-
-
-			
+		<div id="handlekurv">
+			<h1>Handlekurv</h1>
+					<button id="clear">Fjern valgte</button><br>
+						<form>
+						<div id="tlist">List</div><br>
+						</form>
+				
+				
+				<div id="basketContent"></div>
+				<br>
+				<div class="basketButons">
+            		
+            		<button id="clear-books-button" onclick="clearBooks()">Fjern alle</button>
+            		<button id="pay-button" onclick="pay()">Gå til betaling</button>
+            	</div>
+		</div>
 	
 		<div id="content-body">	
 			<div id="box">
@@ -62,21 +78,6 @@
 <!-- ----------------------------------------------------------------- -->
 				<div id="editable">
 											<div id="subheadings"> </div>
-				<h1>Handlekurv</h1>
-					<button id="clear">Fjern valgte</button><br>
-						<form>
-						<div id="tlist">List</div><br>
-						</form>
-				
-				
-				<div id="basketContent"></div>
-				<br>
-				<div class="basketButons">
-            		
-            		<button id="clear-books-button" onclick="clearBooks()">Fjern alle</button>
-            		<button id="pay-button" onclick="pay()">Gå til betaling</button>
-            	</div>
-            	
 				
 				<h1>Pensumbøker</h1>
 				<p>Denne siden inneholder faglitteratur om mange forskjellige emner. Vi har både matematikk, historie, IT og mer! </p><br>

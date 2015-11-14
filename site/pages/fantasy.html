@@ -6,6 +6,9 @@
 		<title>Fantasy</title>
 	</head>
 <body>
+	<div id="buyconfirm"> 
+		<p> &#9989; Du har lagt til varen i handlekurven </p>
+	</div>
 	<div id="banner">
 		<div id="ikonbilde">
 			<a href="index.html"><img id="ikon" src="../images/logo.jpg" style="width:160px;height:130px;">
@@ -40,24 +43,13 @@
 			            	 </ul>
 			          </li>
 			          <li><a href="om.html#support"> Support</a></li>
+			          <li><a href="shoppingcart.html"> <img src="../images/cart.png" style="width:30px; height:30px;"></a></li>
 			        </ul>
 			</nav>		
 	</div>
-		<div id="content-body">
-			<div id="box">
-			<!-- 
-			    <nav>
-				    <div class="placeholder">
-					    <img src="" height="400" width="100%"/>
-					    <span>Navigation</span>
-					</div>
-				</nav>
-				 -->
-				
-<!-- ----------------------------------------------------------------- -->
-				<div id="editable">
-					<div id="subheadings"> </div>
-				<h1>Handlekurv</h1>
+
+		<div id="handlekurv">
+			<h1>Handlekurv</h1>
 					<button id="clear">Fjern valgte</button><br>
 						<form>
 						<div id="tlist">List</div><br>
@@ -71,7 +63,13 @@
             		<button id="clear-books-button" onclick="clearBooks()">Fjern alle</button>
             		<button id="pay-button" onclick="pay()">Gå til betaling</button>
             	</div>
-            	
+		</div>
+
+		<div id="content-body">
+			<div id="box">
+				
+<!-- ----------------------------------------------------------------- -->
+				<div id="editable">         
 				
 				<h1>Fantasy</h1>
 				<p>Denne siden inneholder bøker i kategorien fantasy. Fantasy bøker har gjerne elementer av magi, og forskjellige raser, som vampyrere og alver.</p><br>

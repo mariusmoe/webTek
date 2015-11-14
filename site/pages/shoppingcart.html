@@ -3,12 +3,9 @@
 	<head>
 		<meta charset="UTF-8">
 		<link rel="stylesheet" type="text/css" href="../style/main.css">
-		<title>Barneboker</title>
+		<title>Romantikk</title>
 	</head>
 <body>
-	<div id="buyconfirm"> 
-		<p> &#9989; Du har lagt til varen i handlekurven </p>
-	</div>
 	<div id="banner">
 		<div id="ikonbilde">
 			<a href="index.html"><img id="ikon" src="../images/logo.jpg" style="width:160px;height:130px;">
@@ -47,9 +44,11 @@
 			        </ul>
 			</nav>		
 	</div>
-
-		<div id="handlekurv">
-			<h1>Handlekurv</h1>
+		<div id="content-body">
+			<div id="box">
+				<div id="editable">
+					<div id="subheadings"> </div>
+				<h1>Handlekurv</h1>
 					<button id="clear">Fjern valgte</button><br>
 						<form>
 						<div id="tlist">List</div><br>
@@ -63,47 +62,15 @@
             		<button id="clear-books-button" onclick="clearBooks()">Fjern alle</button>
             		<button id="pay-button" onclick="pay()">Gå til betaling</button>
             	</div>
-		</div>
-
-		<div id="content-body">	
-			<div id="box">
-				
-<!-- ----------------------------------------------------------------- -->
-				<div id="editable">
-										
-				
-				<h1>Barnebøker</h1>
-				<p>Denne siden inneholder bøker i kategorien barnebøker. Glade, fargerike og morsomme bøker for den lille, skjønne gullklumpen din</p><br>
-				
-
-				<h2>Dyrenes verden</h2>
-				<img src="../images/books2/barneboker/doge.jpg" width="146px" height="235px" id="BarnIMG1" onclick="toggleScale(this.id);">
-				<p>"Dyrenes verden" er en informativ bildebok med massevis av fine dyr. Dette er en bok barnet kommer til å like! Alle bildene inneholder til og med TEKST om hvilket dyr det er!!!</p><br>
-				<div>
-            		<button id="book25">Kjøp</button>
-            	</div>
-
-				<h2>Tut-Tut</h2>
-				<img src="../images/books2/barneboker/toytrain.jpg" width="146px" height="235px" id="BarnIMG2" onclick="toggleScale(this.id);">
-				<p>I denne boken får vi lese historien om lekelokomotivet Tut-Tut. Peder er en gutt på 3 år som nettopp har fått et nytt lokotivlekesett. Han brukte flere timer på å leke med det. Etter å ha sovet en natt, var det første han tenkte på da han våknet at han skulle leke med lokomotivet hele dagen! Men da han åpnet boksen, var ikke lokomotivet der lenger...</p><br>
-				<div>
-            		<button id="book26">Kjøp</button>
-            	</div>
-
-
-				<h2>Vår første halloween</h2>
-				<img src="../images/books2/barneboker/trickortreat.jpg" width="146px" height="235px" id="BarnIMG3" onclick="toggleScale(this.id);">
-				<p> "Vår første halloween" handler om en liten vennegjeng som skal gå knask eller knep for første gang! Vi har Emma, Kristine, Fritjof og Sara (fra venstre til høyre). Fritjof, han i det kostymet som skal være noe mellom Captain America, Robin Hood og en helt generisk ridder, har skjønt det. Han prøver å løpe i fra de andre med et håp om å ta all godteriet før de andre kommer fram. Men et lite stykke fremover den samme veien snublet han på et blad og vridde ankelen. De nådde fram om ikke så lenge, og ropte repetitivt "LOL" og gikk videre for å hente godteri. Moralen i denne boken er å lære snørrungen din å ikke være grådig. </p><br>
-				<div>
-            		<button id="book27">Kjøp</button>
-            	</div>
-				
-				
+            	
+			
+					
+				    <div id="embedded"></div>
 				</div>
 			</div>
-	</div>
+		</div>
 
-	<footer>
+		<footer>
 		<div id="footerbox">
 			<div id="ikonbilde">
 				<a href="index.html"><img id="ikon" src="../images/logo.jpg" style="width:100px;height:70px;">
@@ -141,7 +108,7 @@
 		</div>
 	</footer>
 
-	<script src="../script/buy3.js"></script>
+		<script src="../script/buy3.js"></script>
 		<script src="../script/size.js"></script>
 	</body>
 </html>
