@@ -71,144 +71,126 @@ a{
 	position: relative;
 }
 
-.menu {
-    width:580px;
-    float:right;
-    margin-top: 120px;
-    resize: none;
-}
- 
-.menu li {
-    margin:0px;
-    list-style:none;
-    font-family:'Ek Mukta';
-}
-
-.menu li a{
-	color: white;
-}
-
-.menu li ul a {
-    color:#919191; /*Color = dark gray*/
-}
-
-
-
-
- 
-.menu li:hover > a, .menu .current-item > a {
-    text-decoration:none;
-    color:#6bb4e9; /*Color = light blue*/
-}
-
- 
-
- 
-/*----- Top Level -----*/
-.menu > ul > li {
-    float:left;
-    display:inline-block;
-    position:relative;
-    font-size:19px;
-}
- 
-.menu > ul > li > a {
-    padding:10px 40px;
-    display:inline-block;
-    text-shadow:0px 1px 0px rgba(0,0,0,0.4);
-}
- 
-.menu > ul > li:hover > a, .menu > ul > .current-item > a {
-    background:#2e2728; /*Color = almost black*/
-}
- 
-/*----- Mid Level -----*/
-.menu li:hover .sub-menu {
-    z-index:1; 
-    opacity:1;
-}
- 
-.sub-menu {
-    width:160%;
-    padding:5px 0px;
-    position:absolute;
-    top:100%;
-    left:0px;
-    z-index:-1;
-    opacity:0;
-    transition:opacity linear 0.15s;
-    box-shadow:0px 2px 3px rgba(0,0,0,0.2);
-    background:#2e2728;
-}
- 
-.sub-menu li {
-    display:block;
-    font-size:16px;
-}
- 
-.sub-menu li a {
-    padding:10px 30px;
-    display:block;
-}
-
-.sub-menu li:hover > ul
-{
-    display: inline;
-}
-
-.sub-menu li a:hover, .sub-menu .current-item a {
-    background:#3e3436; /*Color = almost black*/
-}
-
-
-/*----- Bottom Level -----*/
-
-.menu li li li ul{
-	display:none;
-}
-.menu ul li ul li ul li{
-	display: inline;
-}
- 
-
-
-.sub-sub-menu{
-    position: absolute;
-    top: 0;
-    right: -150px;
-    width: 150px;
-    list-style: none;
-    padding: 0;
-    margin: 0;
-    display: inline;  /*  display inline for å få tekst */
-}
-
-
-/* Skal hover over romaner for at neste blokk .sub-sub-menu skal vises*/
-
+		#nav{
+			    height: 39px;
+			    font-family:'Ek Mukta';
+			    background: #6bb4e9;
+			    /*border-radius: 3px;*/
+			    min-width:400px;
+			    margin-left: 0px;
+			    padding-left: 0px;
+			 	margin-bottom: 0px;
+			 	/*font-weight: bold;*/
+			 	font-size: 19px;
+			 
+			}   
+			
+			#nav li{
+			    list-style: none;
+			    display: block;
+			    float: left;
+			    height: 40px;
+			    position: relative;
+			    border: none;
+			}
+			
+			#nav li a{
+			    padding: 0px 10px 0px 30px;
+			    margin: 0px 0;
+			    line-height: 40px;
+			    text-decoration: none;
+			    border: none;
+			    height: 40px;
+			    color: #FFF; /*white*/
+			    text-shadow: none;
+			}
+			
+			#nav ul{
+			    background: #2e2728; 
+			    padding: 0px;
+			    box-shadow: none;
+			    -webkit-box-shadow: none;
+			    -moz-box-shadow:none;
+			    width:170px;
+			}
+			#nav .site-name,#nav .site-name:hover{
+			    padding-left: 10px;
+			    padding-right: 10px;
+			    color: #FFF;
+			    width: 160px;
+			}
+			#nav .site-name a{
+			    width: 129px;
+			    overflow:hidden;
+			}
+			
+			#nav li:hover{
+			    background: #2e2728;
+			}
+			#nav li a{
+			    display: block;
+			}
+			#nav ul li {
+			    border-right:none;
+			    width:170px;
+			    height:39px;
+			}
+			#nav ul li a {
+			    border-right: none;
+			    color:#919191;
+			    
+			  /*  border-bottom:1px solid #FFFFFF;*/
+			}
+			#nav ul li:hover{background:#3e3436;}
+			#nav ul li:last-child { border-bottom: none;}
+			#nav ul li:last-child a{ border-bottom: none;}
+			/* Sub menus */
+			#nav ul{
+			    display: none;
+			    visibility:hidden;
+			    position: absolute;
+			    top: 40px;
+			}
+			
+			/* Third-level menus */
+			#nav ul ul{
+			    top: 0px;
+			    left:170px;
+			    display: none;
+			    visibility:hidden;
+			}
+			/* Fourth-level menus */
+			#nav ul ul ul{
+			    top: 0px;
+			    left:170px;
+			    display: none;
+			    visibility:hidden;
+			}
+			
+			#nav ul li{
+			    display: block;
+			    visibility:visible;
+			}
+			#nav li:hover > ul{
+			    display: block;
+			    visibility:visible;
+			}
+			
+			nav {
+			margin-top: 120px;
+			float: right;
+			margin-right: 20%;
+			position: relative;
+   			z-index: 40;
+   			margin-bottom: 0px;
+			}
 
 
-.sub-sub-menu li,.sub-sub-menu
-{
-    background: #2e2728;
-}
-
-/* denne er ekstra opacity 0 for at man kan gjemme subsubmenu,men klarer ikke å få tekst til å komme fram og tilbake med hover over romaner*/
-.menu li:hover .sub-sub-menu{
-	opacity: 0.5;
-}
-/* ekstra slutt*/
-
-
-/*--------- Levels END ---------------*/
 .basketButons {
 	display: inline;
 }
 
-nav {
-	float: left;
-	width: 20%;
-}
+
 
 #Logo{
 	margin-top: 50px;
