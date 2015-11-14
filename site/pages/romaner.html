@@ -3,10 +3,10 @@
 	<head>
 		<meta charset="UTF-8">
 		<link rel="stylesheet" type="text/css" href="../style/main.css">
-		<link rel="stylesheet" type="text/css" href="../style/slideshow.css">
-		<title>Thriller</title>
+		<title>Romaner</title>
 	</head>
 <body>
+
 	<div id="banner">
 		<div id="ikonbilde">
 			<a href="index.html"><img id="ikon" src="../images/logo.jpg" style="width:160px;height:130px;">
@@ -44,7 +44,11 @@
 			        </ul>
 			</nav>		
 	</div>
-		<div id="content-body">
+
+
+			
+	
+		<div id="content-body">	
 			<div id="box">
 			<!-- 
 			    <nav>
@@ -56,65 +60,43 @@
 				 -->
 				
 <!-- ----------------------------------------------------------------- -->
-				<div id="editable">
-					<div id="subheadings"> </div>
-				<h1>Handlekurv</h1>
-					<button id="clear">Fjern valgte</button><br>
-						<form>
-						<div id="tlist">List</div><br>
-						</form>
-				
-				
-				<div id="basketContent"></div>
-				<br>
-				<div class="basketButons">
-            		
-            		<button id="clear-books-button" onclick="clearBooks()">Fjern alle</button>
-            		<button id="pay-button" onclick="pay()">Gå til betaling</button>
-            	</div>
-            	
-				
-				<h1>Thriller</h1>
-				<p>Denne siden inneholder bøker i kategorien thriller. Bæker i denne kategorien inneholder gjerne elementer av spenning, mysterier, og evt. mord.</p><br>
-				
+				<div id="romaner-box">
+						
+					<div id="komedie" class="subgenre">
+						<h1> Komedie </h1>
+						<a href="komedie.html"> <img src="../images/books2/komedie/qtadventure.jpg" width="146px" height="235px"></a>
+					</div>
 
-				<h2>Abnormal Abductions</h2>
-				<img src="../images/books2/thriller/1.jpg" width="146px" height="235px" id="ThrillerIMG1" onclick="toggleScale(this.id);">
-				<p>Engelsk storselger om "Trafficing" miljøet i gibraltar.</p><br>
-				<div>
-            		<button id="book31">Kjøp</button>
-            	</div>
+					<div id="fantasy" class="subgenre">
+						<h1> Fantasy </h1>
+						<a href="fantasy.html"> <img src="../images/books/hobbit.jpg" width="146px" height="235px"></a>
+					</div>
 
-				<h2>Dråper i snøen</h2>
-				<img src="../images/books2/thriller/2.jpg" width="146px" height="235px"id="ThrillerIMG2" onclick="toggleScale(this.id);">
-				<p>Strandet i villmarken var kanskje ikke det du hadde tenkt deg i helgen?</p><br>
-				<div>
-            		<button id="book32">Kjøp</button>
-            	</div>
+					<div id="action" class="subgenre">
+						<h1> Action </h1>
+						<a href="action.html"> <img src="../images/books2/action/hungergames.png" width="146px" height="235px"></a>
+					</div>
 
+					<div id="thriller" class="subgenre">
+						<h1> Thriller </h1>
+						<a href="thriller.html"> <img src="../images/books2/thriller/1.jpg" width="146px" height="235px"></a>
+					</div>
 
-				<h2>Skulldigger</h2>
-				<img src="../images/books2/thriller/3.jpg" width="146px" height="235px"id="ThrillerIMG3" onclick="toggleScale(this.id);">
-				<p>Richerd Gullagard er en utradisjonell hodejeger i "Skulldigger"</p><br>
-				<div>
-            		<button id="book33">Kjøp</button>
-            	</div>
-				
-				
-				<h2>Moonligth man</h2>
-				<img src="../images/books2/thriller/4.jpg" width="146px" height="235px"id="ThrillerIMG4" onclick="toggleScale(this.id);">
-				<p>Spennende bok om mørkets hemmeligheter</p><br>
-				<div>
-            		<button id="book34">Kjøp</button>
-            	</div>
-				<!-- slutt på Thriller -->
-					
-				    <div id="embedded"></div>
+					<div id="drama" class="subgenre">
+						<h1> Drama </h1>
+						<a href="drama.html"> <img src="../images/books2/drama/1.jpg" width="146px" height="235px"></a>
+					</div>
+
+					<div id="romantikk" class="subgenre">
+						<h1> Romantikk </h1>
+						<a href="romantikk.html"> <img src="../images/books2/romaner/1.jpg" width="146px" height="235px"></a>
+					</div>
+
 				</div>
 			</div>
 		</div>
 
-		<footer>
+	<footer>
 		<div id="footerbox">
 			<div id="ikonbilde">
 				<a href="index.html"><img id="ikon" src="../images/logo.jpg" style="width:100px;height:70px;">
@@ -151,9 +133,5 @@
 			Denne siden er ikke en ekte nettbutikk,<br> og er bare laget for å være et prosjekt på NTNU. <br> &#9400; Sondre, Birathepan, Hung, Christian, Marius</p>
 		</div>
 	</footer>
-	
-		<script src="../script/buy3.js"></script>
-		<script src="../script/size.js"></script>
-
 	</body>
 </html>

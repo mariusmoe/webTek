@@ -310,3 +310,17 @@ a:visited{
 	color: white;
 }
 /*main css slutt  */
+
+/*Css for romaner*/
+#romaner-box{
+	width: 720px;
+	margin-right: auto;
+	margin-left: auto;
+	text-align: center;
+}
+
+.subgenre{
+	width: 200px;
+	float: left;
+	margin: 30px 20px;
+}
