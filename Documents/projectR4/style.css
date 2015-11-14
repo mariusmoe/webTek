@@ -48,7 +48,7 @@ h1, h2 , h3 {
 	/*color: #A7C6DA*/
 }
 
-IMG.displayed {
+img.displayed {
     display: block;
     margin-left: auto;
     margin-right: auto 
