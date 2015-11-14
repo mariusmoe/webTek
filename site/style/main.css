@@ -341,7 +341,7 @@ a:visited{
 	font-size: 20px;
 	text-align: center;
 	visibility: hidden;
-	
+
 }
 
 /* CSS for shoppingcart.html */
@@ -350,4 +350,38 @@ a:visited{
 	margin-top: 30px;
 	margin-bottom: 30px;
 	margin-left: 430px;
+}
+
+/* CSS for index.html */
+#index-editable{
+	width: 970px;
+	margin-right: auto;
+	margin-left: auto;
+	text-align: center;
+	font-family: sans-serif;
+}
+
+.book-row{
+	padding: 20px 0;
+	position: relative;
+	margin-left: 80px;
+	margin-bottom: 350px;
+}
+
+
+#index-editable img{
+	padding: 10px 30px;
+}
+
+.index-book{
+	width: 200px;
+	float: left;
+}
+
+.index-book button{
+	margin: 0 auto;
+}
+
+iframe{
+	margin-bottom: 30px;
 }

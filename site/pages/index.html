@@ -4,15 +4,9 @@
 		<meta charset="UTF-8">
 		<link rel="stylesheet" type="text/css" href="../style/main.css">
 		<link rel="stylesheet" type="text/css" href="../style/slideshow.css">
+		<link rel="icon" href="../images/logo.ico" type="image/ico">
 		<script src="../script/slideshow.js"></script>
 		<title>Hjem</title>
-		<style type="text/css">
-		
-		
-		
-		
-		</style>
-		
 		
 	</head>
 	<body>
@@ -57,6 +51,24 @@
 			        </ul>
 			</nav>
 	</div>
+
+		<div id="handlekurv">
+			<h1>Handlekurv</h1>
+					<button id="clear">Fjern valgte</button><br>
+						<form>
+						<div id="tlist">List</div><br>
+						</form>
+				
+				
+				<div id="basketContent"></div>
+				<br>
+				<div class="basketButons">
+            		
+            		<button id="clear-books-button" onclick="clearBooks()">Fjern alle</button>
+            		<button id="pay-button" onclick="pay()">Gå til betaling</button>
+            	</div>
+		</div>
+
 		<div id="content-body">
 			<div id="box">
 			<!-- 
@@ -77,8 +89,90 @@
 				</div>
 				
 <!-- ----------------------------------------------------------------- -->
-				<div id="editable">
-					<div id="subheadings"> </div>
+				<div id="index-editable">
+
+					<h2> Nyheter </h2>
+					<div id="nyheter" class="book-row">
+						<div class="index-book">	
+						<img src="../images/books2/komedie/qtadventure.jpg" width="146px" height="235px">
+							<p> The adventure of the a... </p>
+		            		<button id="book23">Kjøp</button>
+		            	</div>	
+
+						<div class="index-book">	
+						<img src="../images/books2/lydbok2.jpg" width="146px" height="235px">
+							<p> Colter's hell and Jackson's hole </p>
+		            		<button id="book10">Kjøp</button>
+		            	</div>
+
+		            	<div class="index-book">	
+						<img src="../images/books2/barneboker/toytrain.jpg" width="146px" height="235px">
+							<p> Tut-Tut </p>
+		            		<button id="book26">Kjøp</button>
+		            	</div>	
+		            	
+		            	<div class="index-book">	
+						<img src="../images/books2/drama/4.jpg" width="146px" height="235px">
+							<p> Skyenes skyggespill </p>
+		            		<button id="book38">Kjøp</button>	
+		            	</div>
+					</div>
+
+					<h2> Tilbud </h2>
+					<div id="tilbud" class="book-row"> 
+
+						<div class="index-book">	
+						<img src="../images/books/hobbit.jpg" width="146px" height="235px">
+							<p> The Hobbit </p> 
+		            		<button id="book2">Kjøp</button>
+		            	</div>	
+
+						<div class="index-book">	
+						<img src="../images/books2/drama/2.jpg" width="146px" height="235px">
+							<p> Broen mot evigheten </p>
+		            		<button id="book36">Kjøp</button>
+		            	</div>
+
+		            	<div class="index-book">	
+						<img src="../images/books2/komedie/kaleidoscope.jpg" width="146px" height="235px">
+							<p> Energikilden </p>
+		            		<button id="book24">Kjøp</button>
+		            	</div>	
+		            	
+		            	<div class="index-book">	
+						<img src="../images/books2/barneboker/toytrain.jpg" width="146px" height="235px">
+					 		<p> Tut-Tut </p>
+		            		<button id="book26">Kjøp</button>	
+		            	</div>
+					</div>
+
+					<h2> Bestselgere </h2>
+					<div id="bestselgere" class="book-row"> 
+
+						<div class="index-book">	
+						<img src="../images/books2/pensumboker/js.jpg" width="146px" height="235px">
+							<p> Learn Javascript </p>
+		            		<button id="book30">Kjøp</button>
+		            	</div>	
+
+						<div class="index-book">	
+						<img src="../images/books2/action/hungergames.png" width="146px" height="235px">
+							<p> The Hunger Games </p>
+		            		<button id="book11">Kjøp</button>
+		            	</div>
+
+		            	<div class="index-book">	
+						<img src="../images/books2/komedie/qtadventure.jpg" width="146px" height="235px">
+							<p> The adventure of the a... </p>
+		            		<button id="book23">Kjøp</button>
+		            	</div>	
+		            	
+		            	<div class="index-book">	
+						<img src="../images/books2/action/davincikoden.jpg" width="146px" height="235px">
+			 				<p> Da Vinci Koden </p>
+		            		<button id="book15">Kjøp</button>	
+		            	</div>
+					</div>					
 					
 					<iframe src="http://www.facebook.com/plugins/likebox.php?href=https://www.facebook.com/noahspapir/?ref=br_rs&width=600&colorscheme=light&show_faces=true&border_color&stream=true&header=true&height=540" 
 					scrolling="yes" frameborder="0" style="border:none; overflow:hidden; width:500px; height:540px; background: white; " allowtransparency="true">
@@ -87,7 +181,7 @@
 				    <div id="embedded"></div>
 				</div>
 			</div>
-	</div>
+		</div>
 	<footer>
 		<div id="footerbox">
 			<div id="ikonbilde">
