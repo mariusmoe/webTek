@@ -74,7 +74,7 @@ a{
 		#nav{
 			    height: 39px;
 			    font-family:'Ek Mukta';
-			    background: #6bb4e9;
+			    background: transparent;
 			    /*border-radius: 3px;*/
 			    min-width:400px;
 			    margin-left: 0px;
