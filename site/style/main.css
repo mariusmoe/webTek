@@ -184,7 +184,7 @@ a{
 			float: right;
 			margin-right: 24.3%;
 			position: relative;
-   			z-index: 40;
+   			z-index: 10;
    			margin-bottom: 0px;
 			}
 
@@ -310,7 +310,7 @@ a:visited{
 }
 /*main css slutt  */
 
-/*Css for romaner*/
+/*CSS for romaner.html */
 #romaner-box{
 	width: 720px;
 	margin-right: auto;
@@ -337,8 +337,16 @@ a:visited{
 	background-color: green;
 	color: white;
 	position: fixed;
-	z-index: 40;
+	z-index: 50;
 	font-size: 20px;
 	text-align: center;
 	visibility: hidden;
+}
+
+/* CSS for shoppingcart.html */
+#cart-editable{
+	width: 300px;
+	margin-top: 30px;
+	margin-bottom: 30px;
+	margin-left: 430px;
 }
