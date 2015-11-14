@@ -12,11 +12,20 @@
  * one order.
  ***/   
 var basket = []
-, allBooks = ['book1', 'book2', 'book3', 'book4', 'book5', 'book6', 'book7', 'book8', 'book9', 'book10', 'book11', 'book12', 'book13', 'book14', 'book15', 'book16', 'book17', 'book18', 'book19', 'book20', 'book21', 'book22', 'book23', 'book24', 'book25', 'book26', 'book27', 'book28','book29','book30','book31','book32','book33', 'book34','book35','book36','book37','book38']
-, allBooksNames = ['Lord of The Rings: The fellowship of The Ring', 'The Hobbit', 'The unlucky robot thief', 'The adventure of the asian weightlifter', 'Historen om en gammel mann', 'Bare oppfunnet', 'Ikke mer fantasi igjen', 'Fantasien slår til',
-                   'Annals, Anecdotes and Legends' , 'COLTER’S HELL AND JACKSON’S HOLE','The Hunger Games','The Hunger Games - Catching Fire','The Hunger Games - Mockingjay'
-                   ,'The Maze Runner','Da Vinci Koden','Divergent', 'Divergent','Energikilden', 'Lord of The Rings: Two Towers','Lord of The Rings: The return of The King', 'Harry Potter and the Sorcerers Stone', 'Harry Potter and the Chamber of Secrets'
-                   , 'The adventure of the asian weightlifter', 'Energikilden', 'Dyrenes verden', 'Tut-Tut', 'Vår første halloween', 'Bye Pi Pie', 'Andre verdenskrig', 'Learn Javascript', 'Abnormal Abductions', 'Dråper i snøen', 'Skulldigger', 'Moonlight man', 'Dolled up manequinn', 'Broen mot evigheten', 'Fuglene i kirketårnet', 'Skyenes skyggespill']
+, allBooks = ['book1', 'book2', 'book3', 'book4', 'book5', 'book6', 'book7', 'book8', 'book9', 'book10', 'book11', 'book12', 'book13', 
+              'book14', 'book15', 'book16', 'book17', 'book18', 'book19', 'book20', 'book21', 'book22', 'book23', 'book24', 'book25', 
+              'book26', 'book27', 'book28','book29','book30','book31','book32','book33', 'book34','book35','book36','book37','book38',
+              'book39', 'book40', 'book41', 'book42']
+
+, allBooksNames = ['Lord of The Rings: The fellowship of The Ring', 'The Hobbit', 'The unlucky robot thief', 
+                   'The adventure of the asian weightlifter', 'Historen om en gammel mann', 'Bare oppfunnet', 'Ikke mer fantasi igjen', 
+                   'Fantasien slår til','Annals, Anecdotes and Legends' , 'COLTER’S HELL AND JACKSON’S HOLE','The Hunger Games',
+                   'The Hunger Games - Catching Fire','The Hunger Games - Mockingjay','The Maze Runner','Da Vinci Koden','Divergent', 
+                   'Divergent','Energikilden', 'Lord of The Rings: Two Towers','Lord of The Rings: The return of The King', 
+                   'Harry Potter and the Sorcerers Stone', 'Harry Potter and the Chamber of Secrets', 'The adventure of the asian weightlifter', 
+                   'Energikilden', 'Dyrenes verden', 'Tut-Tut', 'Vår første halloween', 'Bye Pi Pie', 'Andre verdenskrig', 'Learn Javascript', 
+                   'Abnormal Abductions', 'Dråper i snøen', 'Skulldigger', 'Moonlight man', 'Dolled up manequinn', 'Broen mot evigheten', 
+                   'Fuglene i kirketårnet', 'Skyenes skyggespill', 'Roseskandalen' , 'The chains of love', 'Timeless', 'The temple of love - ಠ_ಠ']
 , books = []
 , bug = true
 , first = true
