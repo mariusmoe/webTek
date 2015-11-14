@@ -3,7 +3,6 @@
 	<head>
 		<meta charset="UTF-8">
 		<link rel="stylesheet" type="text/css" href="../style/main.css">
-		<link rel="stylesheet" type="text/css" href="../style/slideshow.css">
 		<title>Fantasy</title>
 	</head>
 <body>
@@ -79,14 +78,14 @@
 				
 
 				<h2>The Hobbit</h2>
-				<img src="../images/books/hobbit.jpg" width="146px" height="235px">
+				<img src="../images/books/hobbit.jpg" width="146px" height="235px" id="fantasyIMG1" onclick="toggleScale(this.id);">
 				<p>Hobbiten er historien om Bilbo Baggins, og om hvordan på en dag, hans liv forandres totalt. Han blir sendt ut på et stort eventyr, langt større en det en hobbit trives med.</p><br>
 				<div>
             		<button id="book2">Kjøp</button>
             	</div>
 
 				<h2>Lord of The Rings: The fellowship of The Ring</h2>
-				<img src="../images/books/lord1.jpg" width="146px" height="235px">
+				<img src="../images/books/lord1.jpg" width="146px" height="235px" id="fantasyIMG2" onclick="toggleScale(this.id);">
 				<p>Boken handler om Frodo Baggins, og hans eventry for å ødelegge den ene ringen. (1/3)</p><br>
 				<div>
             		<button id="book1">Kjøp</button>
@@ -94,7 +93,7 @@
 
 
 				<h2>Lord of The Rings: Two Towers</h2>
-				<img src="../images/books/lord2.jpg" width="146px" height="235px">
+				<img src="../images/books/lord2.jpg" width="146px" height="235px" id="fantasyIMG3" onclick="toggleScale(this.id);">
 				<p>Fortsettelsen på The fellowship of The Ring. (2/3)</p><br>
 				<div>
             		<button id="book19">Kjøp</button>
@@ -102,7 +101,7 @@
 				
 				
 				<h2>Lord of The Rings: The return of The King</h2>
-				<img src="../images/books/lord3.jpg" width="146px" height="235px">
+				<img src="../images/books/lord3.jpg" width="146px" height="235px" id="fantasyIMG4" onclick="toggleScale(this.id);">
 				<p>Siste kapittel i Lord of The Rings. (3/3)</p><br>
 				<div>
             		<button id="book20">Kjøp</button>
@@ -110,14 +109,14 @@
 
 
 				<h2>Harry Potter and the Sorcerer's Stone</h2>
-				<img src="../images/books/harry1.jpg" width="146px" height="235px">
+				<img src="../images/books/harry1.jpg" width="146px" height="235px" id="fantasyIMG5" onclick="toggleScale(this.id);"> 
 				<p>Første bok i serien om Harry Potter. (1/7)</p><br>
 				<div>
             		<button id="book21">Kjøp</button>
             	</div>
 
 				<h2>Harry Potter and the Chamber of Secrets</h2>
-				<img src="../images/books/harry2.jpg" width="146px" height="235px">
+				<img src="../images/books/harry2.jpg" width="146px" height="235px" id="fantasyIMG6" onclick="toggleScale(this.id);">
 				<p>Andre bok i serien om Harry Potter. (2/7)</p><br>
 				<div>
             		<button id="book22">Kjøp</button>
@@ -168,5 +167,6 @@
 		</footer>
 
 		<script src="../script/buy3.js"></script>
+		<script src="../script/size.js"></script>
 	</body>
 </html>
