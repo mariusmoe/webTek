@@ -61,6 +61,7 @@ a{
 	height: 180px;
 	background: url("../images/banner.png"); /*Banner image*/
 	resize: none;
+	min-width: 1300px;
 }
 
 /*START MENU NAV*/
@@ -112,6 +113,7 @@ a{
 			    -webkit-box-shadow: none;
 			    -moz-box-shadow:none;
 			    width:170px;
+			   	font-size: 15px;
 			}
 			#nav .site-name,#nav .site-name:hover{
 			    padding-left: 10px;
@@ -253,6 +255,7 @@ footer {
     color: white;
     background-color: #6bb4e9;
     background-position: bottom-right;
+    min-width: 1300px;
 }
 
 #footerbox{
