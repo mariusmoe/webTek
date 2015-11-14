@@ -92,13 +92,9 @@ a{
     color:#919191; /*Color = dark gray*/
 }
 
-.menu li li li ul{
-	display:none;
-}
 
-.menu ul li ul li ul li{
-	display: inline;
-}
+
+
  
 .menu li:hover > a, .menu .current-item > a {
     text-decoration:none;
@@ -126,7 +122,7 @@ a{
     background:#2e2728; /*Color = almost black*/
 }
  
-/*----- Bottom Level -----*/
+/*----- Mid Level -----*/
 .menu li:hover .sub-menu {
     z-index:1; 
     opacity:1;
@@ -154,10 +150,27 @@ a{
     padding:10px 30px;
     display:block;
 }
- 
+
+.sub-menu li:hover > ul
+{
+    display: inline;
+}
+
 .sub-menu li a:hover, .sub-menu .current-item a {
     background:#3e3436; /*Color = almost black*/
 }
+
+
+/*----- Bottom Level -----*/
+
+.menu li li li ul{
+	display:none;
+}
+.menu ul li ul li ul li{
+	display: inline;
+}
+ 
+
 
 .sub-sub-menu{
     position: absolute;
@@ -172,10 +185,7 @@ a{
 
 
 /* Skal hover over romaner for at neste blokk .sub-sub-menu skal vises*/
-.sub-menu li:hover > ul
-{
-    display: inline;
-}
+
 
 
 .sub-sub-menu li,.sub-sub-menu
@@ -183,9 +193,14 @@ a{
     background: #2e2728;
 }
 
+/* denne er ekstra opacity 0 for at man kan gjemme subsubmenu,men klarer ikke å få tekst til å komme fram og tilbake med hover over romaner*/
+.menu li:hover .sub-sub-menu{
+	opacity: 0.5;
+}
+/* ekstra slutt*/
 
 
-
+/*--------- Levels END ---------------*/
 .basketButons {
 	display: inline;
 }
