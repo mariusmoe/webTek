@@ -216,6 +216,7 @@ function getCookie(cname) {
  */
 function pay(){
 	alert("Du har kjøpt: " + strAlert);
+	clearBooks();
 }
 
 
