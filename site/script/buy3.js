@@ -19,9 +19,9 @@ var basket = []
 
 , allBooksNames = ['Lord of The Rings: The fellowship of The Ring', 'The Hobbit', 'The unlucky robot thief', 
                    'The adventure of the asian weightlifter', 'Historen om en gammel mann', 'Bare oppfunnet', 'Ikke mer fantasi igjen', 
-                   'Fantasien slår til','Annals, Anecdotes and Legends' , 'COLTER’S HELL AND JACKSON’S HOLE','The Hunger Games',
-                   'The Hunger Games - Catching Fire','The Hunger Games - Mockingjay','The Maze Runner','Da Vinci Koden','Divergent', 
-                   'Divergent','Energikilden', 'Lord of The Rings: Two Towers','Lord of The Rings: The return of The King', 
+                   'Fantasien slår til','Annals, Anecdotes and Legends' , 'COLTER’S HELL AND JACKSON’S HOLE','Blodagenten',
+                   'Labyrinten','Ninjafrosken','Dinosaurenes rike','blank','blank', 
+                   'blank','Energikilden', 'Lord of The Rings: Two Towers','Lord of The Rings: The return of The King', 
                    'Harry Potter and the Sorcerers Stone', 'Harry Potter and the Chamber of Secrets', 'The adventure of the asian weightlifter', 
                    'Energikilden', 'Dyrenes verden', 'Tut-Tut', 'Vår første halloween', 'Bye Pi Pie', 'Andre verdenskrig', 'Learn Javascript', 
                    'Abnormal Abductions', 'Dråper i snøen', 'Skulldigger', 'Moonlight man', 'Dolled up manequinn', 'Broen mot evigheten', 
