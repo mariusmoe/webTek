@@ -20,9 +20,9 @@
         svar.push( "Det er dessverre ikke mulig å skaffe eierskap i bedriften enda. Sem(vår CEO) har en emosjonell tilknytning til butikken.");
         svar.push("Under dagene vi har bokkvelder, leser vi litt av noen bøker og gir anmeldelse");
         svar.push("Vi søker ikke ansatte for øyeblikket, men det er mulig vi kommer til å øke bemanningen hvis vi skal utvide lokalet vårt ");
-        svar.push("svar");
-        svar.push("svar");
-        svar.push("svar");
+        svar.push("Vi sender dessverre ikke bøker, men du kan gjerne kjøpe/reserve og hente den i butikken.");
+        svar.push("Du kan trykke på 'om' (under info i navigasjonsbaren) eller ringe til butikken på: 12345678 (falskt nummer)");
+        svar.push("Siden vi er verdens første flytende bokhandel!!!");
         svar.push(" Denne siden er en studentoppgave. <br>-'its not about the money, its about sending a message...to student-assistants");
 
              /*
