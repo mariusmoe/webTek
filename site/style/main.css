@@ -37,7 +37,7 @@ a{
 }
 
 /*** HEADING ***/
-#ikonbilde a:visited{
+.ikonbilde a:visited{
 	color:black;
 } 
 
@@ -52,7 +52,7 @@ a{
 	border-right: none;
 }
 
-#ikonbilde{
+.ikonbilde{
 	float: left;
 	margin-left: 10px;
 	margin-top: 20px;
@@ -60,7 +60,7 @@ a{
 	position: absolute;
 }
 
-#ikon{
+.ikon{
 	border-radius: 160px;
 	border: 2px solid ;
 }
@@ -279,7 +279,7 @@ footer #madeBy{
 	position: relative;
 }
 
-footer #ikonbilde{
+footer .ikonbilde{
 	margin-top: 65px;
 	margin-left: 50px;
 	float: left;
