@@ -1,6 +1,6 @@
 /**
  *Lager en vis og skjul knapp 
- *@author Birathepan Tharmakulasingam
+ *@author Birathepan Tharmakulasingam og Christian Haugland
  *@version 2.0
  *@since oktober 2015
  */
