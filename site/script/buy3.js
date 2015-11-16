@@ -2,6 +2,16 @@
  * @author Marius Oscar Moe <mariusomoe@gmail.com>
  */
 
+/*
+ * ****** 	THIS SCRIPT USES COOKIES 	******
+ * IMORTANT! Chrome disables cookies for local files. To avoid this issue the following steps can be made:
+ *  - Enable cookies with the command line flag --enable-file-cookies when lunching Chrome
+ *  - Use Firefox or IE or Safari
+ *  - Upload the site to a server (localhost also works) or just use our uploaded version. Link will be 
+ *    available together with the project hand in. 
+ */
+
+
 /*** 
  * -- This script emulates what a database often would have taken care of. --
  * buy3.js is responsible for our shoppingcart. It scans through the html 
