@@ -4,6 +4,24 @@
 <meta charset="UTF-8">
 <link rel="stylesheet" href="style.css" type="text/css">
 <title>P4 Test</title>
+<style type="text/css">
+					table.tableizer-table {
+					border: 1px solid black; font-family: Arial, Helvetica, sans-serif;
+					font-size: 12px;
+					
+				} 
+				.tableizer-table td {
+					padding: 4px;
+					margin: 3px;
+					border: 1px solid black;
+				}
+				.tableizer-table th {
+					background-color: #104E8B; 
+					color: #FFF;
+					font-weight: bold;
+					border: 1px solid black;
+				}
+				</style>
 </head>
 <body>
 
@@ -99,7 +117,7 @@
 				ligger lokalt.    
 			</p>
 			<img class="displayed" alt="Diagram over hvilke nettlesere som ble brukt i undersøkelsen" src="browser.png">
-			<div id="byline">
+			<div class="byline">
 					Fig. 1. Det var mulig å velge flere nettlesere, men kunn de ovenfor ble brukt.
 			</div>
 			
@@ -114,7 +132,7 @@
 				hadde vær likt representert.    
 			</p>
 			<img class="displayed" alt="Diagram over hvilke nettlesere som ble brukt i undersøkelsen" src="age.png">
-			<div id="byline">
+			<div class="byline">
 					Fig. 2. Aldersfordeling
 			</div>
 			
@@ -129,11 +147,11 @@
 				Endringer gjort på bakrunn av denne tilbakemeldingen kan en lese om i <a href="#endringer">Endringer på bakrunn av tilbakemeldinger</a><!-- Skriv kanskje litt mer her! -->
 			</p>
 			<img class="displayed" alt="Hvor enkelt var det å finne en bok du ville kjøpe? " src="kjopbok.png">
-			<div id="byline">
+			<div class="byline">
 					Fig. 3. Hvor enkelt var det å finne en bok du ville kjøpe? 
 			</div><br>
 			<img class="displayed" alt="Hvor enkelt var det å finne åpningstider og adressen til butikken?" src="opningstider.png">
-			<div id="byline">
+			<div class="byline">
 					Fig. 4. Hvor enkelt var det å finne åpningstider og adressen til butikken? 
 			</div>
 			
@@ -148,7 +166,7 @@
 				     
 			</p>
 			<img class="displayed" alt="qwerer" src="kjopbok2.png">
-			<div id="byline">
+			<div class="byline">
 					Fig. 5. Aldersfordeling
 			</div>
 			
@@ -159,24 +177,7 @@
     		<h3>Scenariotester</h3>
     		
     	<!--  Dette var egentlig en tabell i excel. Har brukt http://tableizer.journalistopia.com/ for å konvertere til tabell  -->
-    		<style type="text/css">
-					table.tableizer-table {
-					border: 1px solid black; font-family: Arial, Helvetica, sans-serif;
-					font-size: 12px;
-					
-				} 
-				.tableizer-table td {
-					padding: 4px;
-					margin: 3px;
-					border: 1px solid black;
-				}
-				.tableizer-table th {
-					background-color: #104E8B; 
-					color: #FFF;
-					font-weight: bold;
-					border: 1px solid black;
-				}
-				</style>
+    		
 				<table class="tableizer-table">
 					<tr class="tableizer-firstrow">
 						<th>Test</th>
@@ -293,15 +294,15 @@
     				siden eller lagt til flere funksjoner. En kan se av fig 6 at mye av arbeidet har 
     				blitt gjort den siste uka. 
     				<br><br>
-    				<img class="displayed" alt="Graf som viser hvor aktiv gitHub har vært" width="800px" src="commit.png">
-					<div id="byline">
+    				<img class="displayed" alt="Graf som viser hvor aktiv gitHub har vært"  width="800" src="commit.png">
+					<div class="byline">
 							Fig. 6. Graf som viser hvor aktiv gitHub har vært.
 					</div>
     				
     				<br><br>
     				
     				Design til små skjermer burde vi tenkt mer på i starten. Selv om ikke dette var et fokus i oppgaven.  
-    			</p>
+    			
     			
     			
     			
