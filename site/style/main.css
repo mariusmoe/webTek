@@ -42,15 +42,6 @@ a{
 } 
 
 
-
-#topmenu{
-	margin-right: auto;margin-left: auto;width:auto;
-	border:solid; border-width:thin; border-top:none;
-	text-align:center;
-	border-left: none;
-	border-right: none;
-}
-
 .ikonbilde{
 	float: left;
 	margin-left: 10px;
@@ -213,7 +204,7 @@ a{
 /*** MAINCONTENT ***/
 #box {
 	width:995px;
-	border: solid 1px grey;
+	border: solid 1px black;
 	margin-right: 0px;
 	margin-left: 0px;
 	min-height: 500px;
@@ -261,7 +252,6 @@ footer {
     margin-top: 0;
     color: white;
     background-color: #6bb4e9;
-    background-position: bottom-right;
     min-width: 1300px;
 }
 
