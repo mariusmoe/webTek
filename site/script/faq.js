@@ -1,6 +1,6 @@
 /**
  *Lager en vis og skjul knapp 
- *@author Birathepan Tharmakulasingam
+ *@author Birathepan Tharmakulasingam og Christian Haugland
  *@version 2.0
  *@since oktober 2015
  */
@@ -23,7 +23,7 @@
         svar.push("Vi søker ikke ansatte for øyeblikket, men det er mulig vi kommer til å øke bemanningen hvis vi skal utvide lokalet vårt ");
         svar.push("Vi sender dessverre ikke bøker, men du kan gjerne kjøpe/reserve og hente den i butikken.");
         svar.push("Du kan trykke på 'om' (under info i navigasjonsbaren) eller ringe til butikken på: 12345678 (falskt nummer)");
-        svar.push("Siden vi er verdens første flytende bokhandel!!!");
+        svar.push("Siden vi er Norges første flytende bokhandel!!!");
         svar.push("Denne siden er en studentoppgave. <br>-'its not about the money, its about sending a message...to student-assistants");
 
 /**This loop gets ids from all buttons. Only runs once.
