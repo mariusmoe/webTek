@@ -1,10 +1,9 @@
 /**
-FILE NAME: scipt/faq.js
-WRITTEN BY: Birathepan Tharmakulasingam & Christian Haugland
-WHEN: November 2015
-PURPOSE:  Get a list full of boolean elements.Hide the answers if open.
-*/
-
+ *Lager en vis og skjul knapp 
+ *@author Birathepan Tharmakulasingam
+ *@version 2.0
+ *@since oktober 2015
+ */
 
         var questionIds = ['questions', 'questions2', 'questions3', 'questions4',
         'questions5', 'questions6', 'questions7', 'questions8', 'questions9', 'questions10'

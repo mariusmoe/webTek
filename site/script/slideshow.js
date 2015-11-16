@@ -1,9 +1,10 @@
 /**
-FILE NAME: scipt/slideshow.js
-WRITTEN BY: Hung Thieu
-WHEN: November 2015
-PURPOSE:  Lager en slideshow til hovedsiden 
-*/
+ *lager en slideshow.
+ *@author Hung Thieu
+ *@version 2.2
+ *@since Oktober 2015
+ */
+
 addEventListener("load", interval);
 
 var imageCounter = 1;
