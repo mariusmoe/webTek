@@ -1,3 +1,9 @@
+/**
+FILE NAME: scipt/size.js
+WRITTEN BY:Sondre Kristensen
+WHEN: November 2015
+PURPOSE: Forstørrer bestemte bilder
+*/
 var smallwidth = 146;
 var smallheigth = 235;
 var bigwidth = 584;
