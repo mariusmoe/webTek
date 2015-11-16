@@ -1,9 +1,10 @@
 /**
-FILE NAME: scipt/faq.js
-WRITTEN BY: Birathepan Tharmakulasingam
-WHEN: November 2015
-PURPOSE:  Get a list full of boolean elements.Hide the answers if open.
-*/
+ *Lager en vis og skjul knapp 
+ *@author Birathepan Tharmakulasingam
+ *@version 2.0
+ *@since oktober 2015
+ */
+
 
     var liste=[];
         for (var i = 0; i < 9; i++) {

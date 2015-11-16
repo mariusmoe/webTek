@@ -1,9 +1,10 @@
+
 /**
-FILE NAME: scipt/map.js
-WRITTEN BY: Christian Haugland
-WHEN: November 2015
-PURPOSE:  Åpner google api.
-*/
+ *åpner google api
+ *@author Christian Haugland
+ *@version 1.0
+ *@since November 2015
+ */
 
 function initMap() {
   var shop = {lat: 63.424009, lng: 10.394774};
