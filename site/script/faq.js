@@ -1,11 +1,10 @@
-   /**
- * @author Birathepan Tharmakulasingam
- */
+/**
+FILE NAME: scipt/faq.js
+WRITTEN BY: Birathepan Tharmakulasingam
+WHEN: November 2015
+PURPOSE:  Get a list full of boolean elements.Hide the answers if open.
+*/
 
-    /*
- *  Get a list full of boolean elements
- * its purpose is to make the button hide the answers if open.
- */
     var liste=[];
         for (var i = 0; i < 9; i++) {
             liste.push(true);

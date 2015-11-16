@@ -1,10 +1,18 @@
 /**
+<<<<<<< HEAD
  *This script toggles an image between two sizes.
  *@author Sondre Kristensen
  *@version 1.0
  *@since 16/11-2015
  */
 
+=======
+FILE NAME: scipt/size.js
+WRITTEN BY:Sondre Kristensen
+WHEN: November 2015
+PURPOSE: Forstørrer bestemte bilder
+*/
+>>>>>>> 215a0edb214213564f8e6817ba092edf320e400a
 var smallwidth = 146;
 var smallheigth = 235;
 var bigwidth = 584;
